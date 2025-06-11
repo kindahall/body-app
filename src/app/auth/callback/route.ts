@@ -1,5 +1,6 @@
+import { logger } from '@/lib/logger'
 import { createRouteHandlerClient } from '@/lib/supabase'
-import { createUserProfile } from '@/lib/auth/AuthHandlerMCP'
+import { createUserProfile } from '@/lib/auth/server-auth'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function GET(request: NextRequest) {
@@ -14,7 +15,7 @@ export async function GET(request: NextRequest) {
       const { data: { session }, error } = await supabase.auth.exchangeCodeForSession(code)
       
       if (error) {
-        console.error('Auth callback error:', error)
+        logger.error('Auth callback error:', error.message || error)
         return NextResponse.redirect(new URL('/auth?error=auth_callback_error', requestUrl.origin))
       }
       
@@ -28,10 +29,10 @@ export async function GET(request: NextRequest) {
         
         if (!existingProfile) {
           // Create user profile if it doesn't exist
-          const { error: profileError } = await createUserProfile(session.user)
+          const { error: profileError } = await createUserProfile(session.user, request)
           
           if (profileError) {
-            console.error('Error creating user profile:', profileError)
+            logger.error('Error creating user profile:', profileError.message || profileError)
           }
           
           // Redirect to onboarding for new users
@@ -42,8 +43,8 @@ export async function GET(request: NextRequest) {
           return NextResponse.redirect(new URL(redirectUrl, requestUrl.origin))
         }
       }
-    } catch (error) {
-      console.error('Unexpected auth callback error:', error)
+    } catch (error: any) {
+      logger.error('Unexpected auth callback error:', error.message || error)
       return NextResponse.redirect(new URL('/auth?error=unexpected_error', requestUrl.origin))
     }
   }

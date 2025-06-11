@@ -1,6 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
 import { createBrowserClient, createServerClient } from '@supabase/ssr'
-import { cookies } from 'next/headers'
 import { NextRequest, NextResponse } from 'next/server'
 
 // Database types
@@ -11,6 +10,7 @@ export interface Database {
         Row: {
           id: string
           email: string
+          username: string | null
           lang: string
           subscription_status: 'free' | 'standard' | 'premium'
           stripe_customer_id: string | null
@@ -20,6 +20,7 @@ export interface Database {
         Insert: {
           id?: string
           email: string
+          username?: string | null
           lang?: string
           subscription_status?: 'free' | 'standard' | 'premium'
           stripe_customer_id?: string | null
@@ -29,6 +30,7 @@ export interface Database {
         Update: {
           id?: string
           email?: string
+          username?: string | null
           lang?: string
           subscription_status?: 'free' | 'standard' | 'premium'
           stripe_customer_id?: string | null
@@ -129,6 +131,32 @@ export interface Database {
           created_at?: string
         }
       }
+      profiles: {
+        Row: {
+          id: string
+          email: string | null
+          age: number | null
+          credits: number
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id: string
+          email?: string | null
+          age?: number | null
+          credits?: number
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          id?: string
+          email?: string | null
+          age?: number | null
+          credits?: number
+          created_at?: string
+          updated_at?: string
+        }
+      }
     }
     Views: {
       [_ in never]: never
@@ -147,10 +175,14 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 
 // Client-side Supabase client
 export const createClientComponentClient = () =>
-  createBrowserClient<Database>(supabaseUrl, supabaseAnonKey)
+  createBrowserClient<Database>(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  )
 
 // Server-side Supabase client for Server Components
 export const createServerComponentClient = async () => {
+  const { cookies } = await import('next/headers')
   const cookieStore = await cookies()
   return createServerClient<Database>(
     supabaseUrl,
@@ -188,10 +220,16 @@ export const createRouteHandlerClient = (request: NextRequest) => {
           return request.cookies.getAll()
         },
         setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value }) => request.cookies.set(name, value))
-          cookiesToSet.forEach(({ name, value, options }) =>
-            response.cookies.set(name, value, options)
-          )
+          cookiesToSet.forEach(({ name, value, options }) => {
+            request.cookies.set(name, value)
+            response.cookies.set(name, value, {
+              ...options,
+              httpOnly: true,
+              secure: process.env.NODE_ENV === 'production',
+              sameSite: 'lax',
+              path: '/'
+            })
+          })
         },
       },
     }
@@ -200,7 +238,6 @@ export const createRouteHandlerClient = (request: NextRequest) => {
 
 // Middleware Supabase client
 export const createMiddlewareClient = (request: NextRequest) => {
-  const response = NextResponse.next()
   return createServerClient<Database>(
     supabaseUrl,
     supabaseAnonKey,
@@ -212,7 +249,6 @@ export const createMiddlewareClient = (request: NextRequest) => {
         setAll(cookiesToSet) {
           cookiesToSet.forEach(({ name, value, options }) => {
             request.cookies.set(name, value)
-            response.cookies.set(name, value, options)
           })
         },
       },
