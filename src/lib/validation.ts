@@ -149,7 +149,17 @@ export function validateDataSafe<T>(schema: z.ZodSchema<T>, data: unknown): {
   errors: z.ZodError
 } {
   const result = schema.safeParse(data)
-  return result
+  if (result.success) {
+    return {
+      success: true,
+      data: result.data
+    }
+  } else {
+    return {
+      success: false,
+      errors: result.error
+    }
+  }
 }
 
 // Middleware de validation pour les API routes

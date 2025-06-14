@@ -1,4 +1,3 @@
-import useSWR from 'swr'
 import { MirrorService, MirrorData } from '@/lib/supabase/mirror'
 import { useAuth } from '@/lib/auth/AuthHandlerMCP'
 import { useEffect, useState, useMemo } from 'react'

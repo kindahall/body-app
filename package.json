@@ -38,7 +38,6 @@
     "i18n": "npm run check-translations"
   },
   "dependencies": {
-    "@supabase/auth-helpers-nextjs": "^0.10.0",
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.49.9",
     "@tanstack/react-query": "^5.80.6",
@@ -60,6 +59,7 @@
     "recharts": "^2.15.3",
     "speakeasy": "^2.0.0",
     "stripe": "^18.2.1",
+    "swr": "^2.3.3",
     "tailwind-merge": "^3.3.0",
     "zod": "^3.25.56"
   },

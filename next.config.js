@@ -1,5 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Exclure les fonctions Supabase du build
+  webpack: (config, { isServer }) => {
+    // Ignore Supabase functions (Deno code)
+    config.watchOptions = {
+      ...config.watchOptions,
+      ignored: ['**/supabase/functions/**', '**/node_modules/**']
+    }
+    
+    return config
+  },
+
   images: {
     // Réactiver l'optimisation d'images
     unoptimized: false,
