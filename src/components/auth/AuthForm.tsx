@@ -1,13 +1,13 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { useAuth } from '@/lib/auth/AuthHandlerMCP'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Mail, Lock, Eye, EyeOff, Chrome, AlertCircle, CheckCircle } from 'lucide-react'
 
 type TabType = 'login' | 'signup'
 
-export default function AuthForm() {
+function AuthFormContent() {
   const [activeTab, setActiveTab] = useState<TabType>('login')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -336,5 +336,29 @@ export default function AuthForm() {
       </button>
       */}
     </div>
+  )
+}
+
+function AuthFormSkeleton() {
+  return (
+    <div className="w-full max-w-md mx-auto animate-pulse">
+      <div className="flex mb-8 bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+        <div className="flex-1 h-8 bg-gray-200 dark:bg-gray-600 rounded-md"></div>
+        <div className="flex-1 h-8 bg-gray-200 dark:bg-gray-600 rounded-md ml-1"></div>
+      </div>
+      <div className="space-y-4">
+        <div className="h-12 bg-gray-200 dark:bg-gray-600 rounded-lg"></div>
+        <div className="h-12 bg-gray-200 dark:bg-gray-600 rounded-lg"></div>
+        <div className="h-12 bg-gray-200 dark:bg-gray-600 rounded-lg"></div>
+      </div>
+    </div>
+  )
+}
+
+export default function AuthForm() {
+  return (
+    <Suspense fallback={<AuthFormSkeleton />}>
+      <AuthFormContent />
+    </Suspense>
   )
 }
