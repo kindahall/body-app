@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-06-08T22:01:29.289Z",
+  "stats": {
+    "totalImages": 7,
+    "optimizedImages": 7,
+    "unoptimizedImages": 0,
+    "missingAlt": 0,
+    "missingLazyLoading": 0,
+    "missingSizes": 1,
+    "lowQuality": 0
+  },
+  "score": 100,
+  "issues": [
+    {
+      "type": "MISSING_SIZES",
+      "severity": "MEDIUM",
+      "file": "src/components/ui/OptimizedImage.tsx",
+      "line": 126,
+      "message": "Attribut sizes manquant pour une image avec fill",
+      "suggestion": "Ajouter sizes=\"...\" pour optimiser le responsive",
+      "code": "<Image {...imageProps} fill />"
+    }
+  ]
+}

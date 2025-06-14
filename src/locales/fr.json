@@ -1,0 +1,2174 @@
+{
+  "app": {
+    "title": "BodyCount",
+    "subtitle": "Votre journal intime privé",
+    "subtitleFull": "Votre journal intime numérique privé pour la croissance personnelle et l'auto-réflexion.",
+    "description": "Documentez vos expériences intimes, confessions et évolution personnelle en toute confidentialité. Aucun jugement, juste vous.",
+    "version": "Version Bêta"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "add": "Ajouter",
+    "profiles": "Profils",
+    "insights": "Analyses",
+    "settings": "Paramètres",
+    "confessions": "Confessions",
+    "journal": "Journal",
+    "mirror": "Miroir",
+    "wishlist": "Wishlist"
+  },
+  "menu": {
+    "product": "Produit",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "security": "Sécurité",
+    "company": "Entreprise",
+    "about": "À propos",
+    "legal": "Légal",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "support": "Support"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "signup": "S'inscrire",
+    "logout": "Se déconnecter"
+  },
+  "buttons": {
+    "getStarted": "Commencer gratuitement",
+    "download": "Télécharger",
+    "continue": "Continuer",
+    "buy": "Acheter"
+  },
+  "features": {
+    "title": "Tout ce dont vous avez besoin pour votre croissance personnelle",
+    "confessions": {
+      "title": "Confessions",
+      "description": "Partagez vos pensées les plus profondes et expériences dans un espace sécurisé et privé."
+    },
+    "journal": {
+      "title": "Journal privé",
+      "description": "Documentez vos expériences quotidiennes et suivez votre parcours personnel."
+    },
+    "mirror": {
+      "title": "Miroir",
+      "description": "Réfléchissez sur vos expériences et découvrez des insights sur vos comportements."
+    },
+    "wishlist": {
+      "title": "Liste de souhaits secrète",
+      "description": "Gardez trace de vos désirs et objectifs en toute confidentialité."
+    }
+  },
+  "mobile": {
+    "title": "Applications mobiles bientôt disponibles",
+    "description": "Applications Android et iOS prévues pour Q4 2025",
+    "appStore": "Télécharger sur l'",
+    "appStoreName": "App Store",
+    "googlePlay": "Disponible sur",
+    "googlePlayName": "Google Play"
+  },
+  "screenshots": {
+    "title": "Découvrez l'app en action",
+    "wishlist": {
+      "title": "Ma Wishlist secrète",
+      "description": "Suivez vos souhaits et objectifs avec des statistiques détaillées"
+    },
+    "mirror": {
+      "title": "Le Miroir",
+      "description": "Espace d'introspection personnelle pour mieux vous connaître"
+    },
+    "journal": {
+      "title": "Journal intime",
+      "description": "Vos pensées et émotions privées en toute confidentialité"
+    },
+    "confessions": {
+      "title": "Confessions",
+      "description": "Partagez librement et anonymement"
+    },
+    "prevButton": "Capture d'écran précédente",
+    "nextButton": "Capture d'écran suivante",
+    "goToSlide": "Aller à la capture d'écran {index}",
+    "helpMessage": "💡 Note : Placez vos captures d'écran dans le dossier /public/screenshots/ avec les noms : wishlist.png, mirror.png, journal.png, confessions.png"
+  },
+  "pricing": {
+    "title": "Tarification par crédits",
+    "howItWorks": "Comment ça marche ?",
+    "description": "Utilisez vos crédits pour générer des analyses IA personnalisées",
+    "startingCredits": "Crédits de départ",
+    "creditsPerAnalysis": "Crédits par analyse IA",
+    "freeCreditsDaily": "Crédit gratuit/jour",
+    "bonus": "✨ Bonus : Obtenez 1 crédit gratuit chaque jour • Vos crédits n'expirent jamais",
+    "smallPack": "Petit Pack",
+    "smallPackDescription": "Parfait pour commencer",
+    "mediumPack": "Pack Moyen",
+    "mediumPackDescription": "Le plus populaire",
+    "largePack": "Gros Pack",
+    "largePackDescription": "Valeur maximum",
+    "popular": "Le plus populaire",
+    "bestValue": "Meilleure valeur",
+    "features": {
+      "aiAnalyses": "analyses IA complètes",
+      "noExpiration": "Pas d'expiration",
+      "oneTimePurchase": "Achat unique",
+      "unlimitedAccess": "Accès illimité",
+      "prioritySupport": "Support prioritaire",
+      "bestValue": "Meilleur rapport qualité-prix",
+      "noSubscription": "Pas d'abonnement",
+      "maxSavings": "Économies maximales",
+      "advancedUsers": "Pour utilisateurs avancés"
+    }
+  },
+  "freeSection": {
+    "title": "🎁 Commencez gratuitement",
+    "description": "Chaque nouveau compte reçoit 30 crédits gratuits pour découvrir nos analyses IA. Plus 1 crédit bonus chaque jour !"
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "items": [
+      {
+        "question": "À quel point mes données sont-elles anonymes ?",
+        "answer": "Vos données sont complètement anonymes. Nous utilisons un chiffrement de bout en bout et ne stockons jamais d'informations personnellement identifiables. Vos entrées sont chiffrées sur votre appareil avant d'être envoyées à nos serveurs."
+      },
+      {
+        "question": "Mes données sont-elles privées et sécurisées ?",
+        "answer": "Absolument. Nous utilisons un chiffrement de grade militaire (AES-256) pour protéger vos données. Vos informations sont stockées de manière sécurisée et ne sont jamais partagées avec des tiers. Vous pouvez supprimer votre compte et toutes vos données à tout moment."
+      },
+      {
+        "question": "Puis-je exporter mes données ?",
+        "answer": "Oui, avec un abonnement Premium vous pouvez exporter toutes vos données dans plusieurs formats (JSON, PDF, CSV). Cela garantit que vous avez toujours accès à vos informations personnelles et pouvez migrer si nécessaire."
+      },
+      {
+        "question": "Que se passe-t-il si j'oublie mon mot de passe ?",
+        "answer": "Vous pouvez réinitialiser votre mot de passe en utilisant le lien \"Mot de passe oublié\" sur la page de connexion. Nous vous enverrons un lien de réinitialisation sécurisé par email. Notez qu'en raison de notre chiffrement, nous ne pouvons pas récupérer vos données si vous perdez l'accès à votre compte."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Votre journal intime numérique privé pour la croissance personnelle et l'auto-réflexion.",
+    "copyright": "© 2025 BodyCount. Tous droits réservés."
+  },
+  "ageInput": {
+    "label": "Âge",
+    "required": "Âge",
+    "testMode": "Mode test - Âge non requis",
+    "testModeDescription": "L'âge n'est pas collecté en mode test",
+    "placeholder": "Votre âge (18-99 ans)",
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "explanation": "L'âge est requis pour calibrer les analyses IA selon votre tranche d'âge",
+    "errorRange": "L'âge doit être entre 18 et 99 ans",
+    "errorInvalid": "L'âge doit être entre 18 et 99 ans.",
+    "errorUpdate": "Erreur lors de la mise à jour",
+    "currentAge": "Âge actuel : {age} ans"
+  },
+  "credits": {
+    "free": "crédits gratuits inclus",
+    "remaining": "crédits restants",
+    "credits": "crédits",
+    "buyCredits": "Acheter des crédits pour vos analyses IA",
+    "useCredits": "Utilisez vos crédits pour générer des analyses IA personnalisées.",
+    "freeDaily": "Obtenez +1 crédit gratuit chaque jour !",
+    "freeDailyShort": "+1 crédit gratuit/jour",
+    "dailyBonus": "Recevez automatiquement 1 crédit gratuit chaque jour."
+  },
+  "download": "Télécharger",
+  "back": "Retour",
+  "insightsIA": "Analyses IA",
+  "featuresPage": {
+    "header": {
+      "backToHome": "Retour à l'accueil",
+      "title": "Fonctionnalités BodyCount",
+      "subtitle": "Découvrez toutes les fonctionnalités qui font de BodyCount votre compagnon idéal pour la croissance personnelle et l'introspection."
+    },
+    "coreFeatures": {
+      "title": "Fonctionnalités principales",
+      "subtitle": "Les quatre piliers de votre développement personnel",
+      "confessions": {
+        "title": "Confessions anonymes",
+        "description": "Libérez-vous en partageant vos pensées les plus profondes dans un environnement 100% anonyme et sécurisé.",
+        "details": "Partage complètement anonyme - aucune trace d'identité|Réactions emoji sans révéler qui vous êtes|Lecture des confessions d'autres utilisateurs|Environnement bienveillant et sans jugement|Modération automatique pour la sécurité"
+      },
+      "journal": {
+        "title": "Journal privé",
+        "description": "Documentez votre parcours personnel avec un journal complètement privé et chiffré de bout en bout.",
+        "details": "Entrées en texte riche avec formatage|Support de photos et vidéos|Géolocalisation optionnelle des souvenirs|Recherche avancée dans vos entrées|Sauvegarde et synchronisation automatiques|Export de données en plusieurs formats"
+      },
+      "mirror": {
+        "title": "Miroir de réflexion",
+        "description": "Analysez vos comportements et découvrez des insights sur votre croissance personnelle grâce à l'IA.",
+        "details": "Analyses IA personnalisées de vos entrées|Identification de patterns comportementaux|Suggestions d'amélioration personnalisées|Graphiques de progression émotionnelle|Rapports mensuels détaillés|Historique de vos évolutions"
+      },
+      "wishlist": {
+        "title": "Liste de souhaits secrète",
+        "description": "Keep a private track of your most personal desires, goals and dreams.",
+        "details": "Flexible categorization of your wishes|Customizable priorities and statuses|Optional reminders and notifications|Inspiration photo gallery|Selective sharing with loved ones|Goal achievement tracking"
+      }
+    },
+    "advancedFeatures": {
+      "title": "Advanced Features",
+      "subtitle": "Sophisticated tools for a complete experience",
+      "ai": {
+        "title": "Advanced Artificial Intelligence",
+        "description": "Our AI analyzes your data to provide personalized insights about your mental and emotional well-being.",
+        "features": "Real-time sentiment analysis|Emotional pattern detection|Personalized recommendations|Mental wellness alerts"
+      },
+      "analytics": {
+        "title": "Analytics and Statistics",
+        "description": "Visualize your progress with detailed charts and personalized metrics.",
+        "features": "Mood and emotion charts|Temporal trends|Periodic comparisons|Exportable reports"
+      },
+      "security": {
+        "title": "Security and Privacy",
+        "description": "Your data is protected by military-grade encryption and advanced security protocols.",
+        "features": "End-to-end AES-256 encryption|Two-factor authentication|Secure servers in Europe|Full GDPR compliance"
+      },
+      "credits": {
+        "title": "Smart Credit System",
+        "description": "A transparent economic model based on actual usage of AI features.",
+        "features": "30 free credits to start|1 automatic daily bonus credit|Flexible packs without subscription|Credits never expire"
+      },
+      "sharing": {
+        "title": "Selective Sharing",
+        "description": "Precisely control what you want to share and with whom.",
+        "features": "Temporary sharing links|Granular permission control|Optional anonymous sharing|Instant access revocation"
+      },
+      "goals": {
+        "title": "Goals and Challenges",
+        "description": "Set and track your personal goals with integrated motivation tools.",
+        "features": "Customizable SMART goals|Automatic progress tracking|Motivating weekly challenges|Success celebrations"
+      }
+    },
+    "technicalFeatures": {
+      "title": "Technical Excellence",
+      "subtitle": "Cutting-edge technology serving your experience",
+      "responsive": {
+        "title": "Adaptive Interface",
+        "description": "Progressive web application that adapts perfectly to all your devices."
+      },
+      "darkMode": {
+        "title": "Dark Mode",
+        "description": "Interface optimized for nighttime use with eye protection."
+      },
+      "multilingual": {
+        "title": "Multilingual",
+        "description": "Interface available in French with support for other languages planned."
+      },
+      "offline": {
+        "title": "Offline Mode",
+        "description": "Continue using the application even without internet connection."
+      }
+    },
+    "upcoming": {
+      "title": "Coming Soon",
+      "subtitle": "We are constantly working on new features to enrich your experience",
+      "mobileApps": {
+        "title": "Mobile Applications",
+        "description": "iOS and Android - Q4 2025"
+      },
+      "communities": {
+        "title": "Private Communities",
+        "description": "Closed groups for mutual support"
+      },
+      "suggestions": {
+        "title": "Feature suggestions",
+        "description": "Got an idea? We listen to our users!",
+        "sendSuggestion": "Send a suggestion"
+      }
+    },
+    "cta": {
+      "title": "Ready to discover all these features?",
+      "subtitle": "Start your personal growth journey today with 30 free credits",
+      "startFree": "Get Started for Free",
+      "noCardRequired": "No credit card required"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close"
+  },
+  "pricingPage": {
+    "header": {
+      "backToHome": "Back to home",
+      "title": "Simple and Transparent Pricing",
+      "subtitle": "Pay only for what you use with our credit system. No subscription, no surprises, just AI analyses when you need them."
+    },
+    "howItWorks": {
+      "title": "How does our credit system work?",
+      "subtitle": "Simple, transparent and fair",
+      "freeFeatures": {
+        "freeCredits": {
+          "title": "30 Free Credits",
+          "description": "Every new account receives 30 credits to discover our AI analyses"
+        },
+        "dailyBonus": {
+          "title": "Daily Bonus",
+          "description": "Automatically receive 1 free credit every day"
+        },
+        "noExpiration": {
+          "title": "No Expiration",
+          "description": "Your credits remain available indefinitely, use them when you want"
+        }
+      },
+      "creditsExplanation": {
+        "title": "10 credits = 1 complete AI analysis",
+        "description": "Each personalized AI analysis of your data costs 10 credits and provides detailed insights about your mental and emotional well-being."
+      }
+    },
+    "creditPacks": {
+      "title": "Choose your credit pack",
+      "subtitle": "One-time purchase, no subscription, credits never expire",
+      "mostPopular": "Most popular",
+      "buyPack": "Buy this pack",
+      "small": {
+        "name": "Small Pack",
+        "description": "Perfect to start your journey",
+        "analyses": "complete AI analyses",
+        "features": "5 complete AI analyses|Credits never expire|One-time purchase, no subscription|Email support"
+      },
+      "medium": {
+        "name": "Medium Pack",
+        "description": "Most popular among our users",
+        "analyses": "complete AI analyses",
+        "features": "15 complete AI analyses|Best value for money|20% savings compared to small pack|Priority support"
+      },
+      "large": {
+        "name": "Large Pack",
+        "description": "For advanced users",
+        "analyses": "complete AI analyses",
+        "features": "50 complete AI analyses|Maximum savings of 40%|Ideal for intensive use|VIP support with fast response"
+      }
+    },
+    "usageExamples": {
+      "title": "Which pack fits your usage?",
+      "subtitle": "Choose according to your analysis needs",
+      "recommendation": "Recommendation:",
+      "occasional": {
+        "scenario": "Occasional Use",
+        "description": "Monthly analysis of your entries",
+        "recommendation": "Small Pack + daily credits",
+        "duration": "6+ months of usage"
+      },
+      "regular": {
+        "scenario": "Regular User",
+        "description": "Bi-weekly analyses",
+        "recommendation": "Medium Pack (most popular)",
+        "duration": "3-4 months of usage"
+      },
+      "intensive": {
+        "scenario": "Intensive Use",
+        "description": "Frequent analyses and deep exploration",
+        "recommendation": "Large Pack to save money",
+        "duration": "5+ months of usage"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about our pricing system",
+      "items": {
+        "howCreditsWork": {
+          "question": "How do credits work?",
+          "answer": "Each personalized AI analysis costs 10 credits. You can use your credits whenever you want, they never expire."
+        },
+        "noCreditsLeft": {
+          "question": "What happens if I run out of credits?",
+          "answer": "You continue to receive 1 free credit per day. You can also buy a new credit pack at any time."
+        },
+        "refund": {
+          "question": "Can I get a refund?",
+          "answer": "Yes, we offer a full refund within 14 days of purchase if you are not satisfied."
+        },
+        "hiddenFees": {
+          "question": "Are there any hidden fees?",
+          "answer": "No hidden fees. The displayed price is the final price. No subscription, no automatic renewal."
+        },
+        "shareCredits": {
+          "question": "Can I share my credits?",
+          "answer": "No, credits are tied to your personal account and cannot be transferred."
+        }
+      }
+    },
+    "security": {
+      "title": "100% Secure Payments",
+      "description": "All our payments are processed securely by Stripe, the global leader in online payment solutions.",
+      "features": {
+        "cards": "Bank cards",
+        "ssl": "SSL encryption",
+        "pci": "PCI DSS compliant"
+      }
+    },
+    "cta": {
+      "title": "Start today with 30 free credits",
+      "subtitle": "Discover the power of our AI analyses without commitment",
+      "createAccount": "Create my free account",
+      "noCardRequired": "No credit card required",
+      "bonus": "You will immediately receive 30 free credits + 1 daily bonus credit"
+    }
+  },
+  "securityPage": {
+    "header": {
+      "backToHome": "Back to Home",
+      "title": "Security & Privacy",
+      "subtitle": "Your privacy is our absolute priority. Discover how we protect your most sensitive data with the highest industry security standards."
+    },
+    "features": {
+      "encryption": {
+        "title": "End-to-End Encryption",
+        "description": "Your data is encrypted on your device before being sent to our servers.",
+        "details": "Military-grade AES-256 algorithm|Unique encryption keys per user|Impossible to decrypt without your password|Encryption in transit and at rest"
+      },
+      "anonymity": {
+        "title": "Total Anonymity",
+        "description": "Your confessions and sensitive data remain completely anonymous.",
+        "details": "No link between confessions and identity|IP addresses not stored|Minimal metadata collected|Secure pseudonym system"
+      },
+      "infrastructure": {
+        "title": "Secure Infrastructure",
+        "description": "Our servers are hosted in certified data centers in Europe.",
+        "details": "ISO 27001 data centers|24/7 monitoring|Automated encrypted backups|European geographic redundancy"
+      },
+      "authentication": {
+        "title": "Enhanced Authentication",
+        "description": "Protect your account with multiple layers of security.",
+        "details": "Two-factor authentication (2FA)|Suspicious login detection|Secure sessions with expiration|Real-time security notifications"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Principles",
+      "subtitle": "Our commitment to your privacy",
+      "principles": {
+        "minimal": {
+          "title": "Minimal Collection",
+          "description": "We only collect data strictly necessary for the application to function."
+        },
+        "transparency": {
+          "title": "Total Transparency",
+          "description": "You know exactly what data we collect and why."
+        },
+        "control": {
+          "title": "User Control",
+          "description": "You have complete control over your data: export, deletion, modification."
+        },
+        "noSale": {
+          "title": "No Sale",
+          "description": "Your data is never sold, shared, or monetized."
+        }
+      }
+    },
+    "compliance": {
+      "title": "Compliance & Certifications",
+      "subtitle": "We meet the highest international standards",
+      "standards": {
+        "gdpr": {
+          "title": "European GDPR",
+          "description": "Full compliance with the General Data Protection Regulation",
+          "details": "Right to be forgotten|Data portability|Explicit consent|Designated DPO"
+        },
+        "iso": {
+          "title": "ISO 27001",
+          "description": "International information security standard",
+          "details": "Risk management|Security controls|Continuous improvement|Annual external audit"
+        },
+        "soc": {
+          "title": "SOC 2 Type II",
+          "description": "Verified security and availability controls",
+          "details": "Access controls|Continuous monitoring|Incident management|Public audit report"
+        }
+      }
+    },
+    "dataRights": {
+      "title": "Your Data Rights",
+      "subtitle": "Exercise your rights with ease",
+      "rights": {
+        "access": {
+          "right": "Right to Access",
+          "description": "View all your stored data",
+          "action": "Download my data"
+        },
+        "rectification": {
+          "right": "Right to Rectification",
+          "description": "Modify or correct your information",
+          "action": "Edit my data"
+        },
+        "erasure": {
+          "right": "Right to Erasure",
+          "description": "Permanently delete your account",
+          "action": "Delete my account"
+        },
+        "objection": {
+          "right": "Right to Object",
+          "description": "Refuse certain processing",
+          "action": "Manage my preferences"
+        }
+      }
+    },
+    "tips": {
+      "title": "Security Tips",
+      "subtitle": "Protect yourself with these best practices",
+      "items": {
+        "password": {
+          "tip": "Use a unique and strong password",
+          "description": "Minimum 12 characters with uppercase, lowercase, numbers and symbols"
+        },
+        "2fa": {
+          "tip": "Enable two-factor authentication",
+          "description": "Secure your account with a second layer of protection"
+        },
+        "sessions": {
+          "tip": "Regularly check your active sessions",
+          "description": "Disconnect suspicious sessions from your settings"
+        },
+        "credentials": {
+          "tip": "Never share your credentials",
+          "description": "BodyCount will never ask for your passwords via email"
+        }
+      }
+    },
+    "contact": {
+      "title": "Security Questions",
+      "subtitle": "Our security team is here to help",
+      "description": "If you have specific questions about the security of your data or want to report a security issue, contact our dedicated team directly.",
+      "email": "security@bodycount.app",
+      "response": "Response within 24h guaranteed"
+    },
+    "finalSection": {
+      "title": "Your security, our commitment",
+      "description": "Join a community that places privacy at the heart of everything",
+      "createAccount": "Create my secure account",
+      "readPrivacyPolicy": "Read our complete privacy policy"
+    }
+  },
+  "aboutPage": {
+    "header": {
+      "backToHome": "Back to Home",
+      "title": "About BodyCount",
+      "subtitle": "The story of an application born from the conviction that everyone deserves a safe space to explore their inner world and grow in complete privacy."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "quote": "Democratize access to introspection and mental well-being through technology, while placing privacy and respect for personal data at the heart of our approach.",
+      "description": "We believe that every person has the right to explore their thoughts, emotions and experiences in a completely safe and private environment, without fear of judgment or privacy violations."
+    },
+    "milestones": {
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our development",
+      "2024_launch": {
+        "title": "BodyCount Launch",
+        "description": "First version with core features: private journal, anonymous confessions and AI analysis."
+      },
+      "2024_credits": {
+        "title": "Credit System",
+        "description": "Introduction of transparent economic model based on actual usage of AI features."
+      },
+      "2025_mobile": {
+        "title": "Mobile Applications",
+        "description": "Planned launch of iOS and Android apps for native mobile experience."
+      },
+      "2025_communities": {
+        "title": "Private Communities",
+        "description": "Closed group features for mutual support between users."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "What guides each of our decisions",
+      "privacy": {
+        "title": "Absolute Privacy",
+        "description": "Your privacy is non-negotiable. We put data protection at the heart of everything we do."
+      },
+      "wellbeing": {
+        "title": "Mental Well-being",
+        "description": "We believe mental health is as important as physical health. Our tools help you take care of yourself."
+      },
+      "introspection": {
+        "title": "Guided Introspection",
+        "description": "Artificial intelligence in service of your self-knowledge, without judgment and with kindness."
+      },
+      "community": {
+        "title": "Respectful Community",
+        "description": "A safe space where everyone can express themselves freely, with respect and mutual tolerance."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "The people behind BodyCount",
+      "founder": {
+        "name": "Jimmy Longomba",
+        "role": "Founder & CEO",
+        "description": "Passionate about technology and mental well-being, Jimmy created BodyCount to offer a safe space for introspection."
+      },
+      "ai": {
+        "name": "AI Team",
+        "role": "Artificial Intelligence",
+        "description": "Our team of AI experts develops privacy-respecting algorithms for your personalized analysis."
+      },
+      "security": {
+        "name": "Security Team",
+        "role": "Cybersecurity",
+        "description": "Our security experts monitor 24/7 to protect your data with the highest industry standards."
+      }
+    },
+    "stats": {
+      "title": "BodyCount in Numbers",
+      "subtitle": "Our growing impact",
+      "users": {
+        "number": "10K+",
+        "label": "Active users",
+        "description": "People who trust BodyCount for their personal development"
+      },
+      "analyses": {
+        "number": "50K+",
+        "label": "AI analyses generated",
+        "description": "Personalized insights created to help our users"
+      },
+      "uptime": {
+        "number": "99.9%",
+        "label": "Uptime",
+        "description": "Infrastructure reliability to be there when you need it"
+      },
+      "breaches": {
+        "number": "0",
+        "label": "Data breaches",
+        "description": "Zero security incidents since our launch"
+      }
+    },
+    "testimonials": {
+      "title": "What our users say",
+      "subtitle": "Authentic testimonials",
+      "marie": {
+        "quote": "BodyCount helped me understand my emotions in a way I never imagined. The AI analyses are surprisingly accurate.",
+        "author": "Marie L.",
+        "role": "User for 6 months"
+      },
+      "thomas": {
+        "quote": "Finally an app that truly respects my privacy while helping me grow personally. The anonymous confession system is liberating.",
+        "author": "Thomas B.",
+        "role": "User for 1 year"
+      },
+      "sophie": {
+        "quote": "The BodyCount team really listens to its users. Each update brings concrete improvements to my experience.",
+        "author": "Sophie R.",
+        "role": "User for 8 months"
+      }
+    },
+    "cta": {
+      "title": "Join the Adventure",
+      "subtitle": "Start your introspection journey today",
+      "button": "Create my account"
+    }
+  },
+  "vision": {
+    "title": "Our Vision for the Future",
+    "description": "We imagine a world where every person has access to the tools necessary to understand and improve their mental well-being, with complete respect for their privacy.",
+    "goal": "Our goal is to become the global reference in AI-assisted introspection, while maintaining our core values of privacy and respect.",
+    "expansion": {
+      "title": "Global Expansion",
+      "description": "Make BodyCount accessible everywhere in the world"
+    },
+    "ai": {
+      "title": "Smarter AI",
+      "description": "Develop even more accurate and useful analyses"
+    },
+    "community": {
+      "title": "United Community",
+      "description": "Create authentic connections between users"
+    }
+  },
+  "contact": {
+    "title": "Join Our Story",
+    "subtitle": "Do you have questions, suggestions or just want to chat? We're always happy to hear from our community.",
+    "button": "Start Your Journey",
+    "email": "Contact us",
+    "footer": "🌍 Based in Europe • 🔒 GDPR Compliant • ❤️ Made with passion"
+  },
+  "privacyPage": {
+    "header": {
+      "backToHome": "Back to Home",
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy is our priority. Learn in detail how we collect, use and protect your personal data.",
+      "lastUpdate": "Last updated: December 15, 2024 • Version 2.1"
+    },
+    "introduction": {
+      "engagement": {
+        "title": "Our Commitment to Your Privacy",
+        "description": "At BodyCount, we consider protecting your personal data as a fundamental responsibility. This privacy policy explains in detail how we collect, use, store and protect your information.",
+        "commitment": "We are committed to being transparent about our practices and giving you complete control over your personal data. Your trust is essential to our mission."
+      },
+      "dataCollection": {
+        "title": "Data Collection and Processing",
+        "description": "We only collect data necessary to provide you with a personalized and secure experience. Here is a detailed overview of the types of data we process:"
+      }
+    },
+    "utilization": {
+      "title": "How Do We Use Your Data?",
+      "whatWeDo": "What we do",
+      "provideServices": "Provide and improve our services",
+      "generatePersonalizedIA": "Generate personalized AI analyses",
+      "ensureAccountSecurity": "Ensure your account security",
+      "improveFeatures": "Develop new features",
+      "contactForSupport": "Contact you for technical support",
+      "whatWeNeverDo": "What we never do",
+      "sellData": "Sell your data to third parties",
+      "shareConfessions": "Share your confessions with anyone",
+      "useDataForAdvertising": "Use your data for advertising",
+      "accessDataWithoutReason": "Access your data without valid reason",
+      "keepDataIndefinitely": "Keep your data indefinitely"
+    },
+    "dataTypes": {
+      "title": "What Data Do We Collect?",
+      "subtitle": "Complete transparency on the information we process",
+      "identification": {
+        "category": "Identification Data",
+        "data": "Email address (for authentication)|Chosen username|Account creation date|Language preferences",
+        "purpose": "Authentication and personalization of your experience",
+        "retention": "As long as your account is active",
+        "dataCollected": "Data Collected",
+        "finality": "Purpose",
+        "retentionTitle": "Retention Period"
+      },
+      "content": {
+        "category": "Content Data",
+        "data": "Private journal entries|Anonymous confessions (no identity link)|Personal wishlist|Uploaded media files",
+        "purpose": "Application functionality and AI analysis",
+        "retention": "Until deleted by user",
+        "dataCollected": "Data Collected",
+        "finality": "Purpose",
+        "retentionTitle": "Retention Period"
+      },
+      "usage": {
+        "category": "Usage Data",
+        "data": "Feature usage frequency|AI analysis preferences|Credit usage history|Application settings",
+        "purpose": "User experience improvement",
+        "retention": "24 months maximum",
+        "dataCollected": "Data Collected",
+        "finality": "Purpose",
+        "retentionTitle": "Retention Period"
+      },
+      "technical": {
+        "category": "Technical Data",
+        "data": "Browser type and version|Operating system|Screen resolution|Error logs (anonymized)",
+        "purpose": "Technical support and application improvement",
+        "retention": "12 months maximum",
+        "dataCollected": "Data Collected",
+        "finality": "Purpose",
+        "retentionTitle": "Retention Period"
+      },
+      "labels": {
+        "purpose": "Purpose",
+        "retention": "Retention period"
+      }
+    },
+    "userRights": {
+      "title": "Your GDPR Rights",
+      "subtitle": "Exercise your rights with ease",
+      "access": {
+        "right": "Right to Access",
+        "description": "Get a copy of all your personal data",
+        "howTo": "Settings → Privacy → Download my data"
+      },
+      "rectification": {
+        "right": "Right to Rectification",
+        "description": "Correct or update your personal information",
+        "howTo": "Editable directly in your user profile"
+      },
+      "erasure": {
+        "right": "Right to Erasure",
+        "description": "Permanently delete your account and all your data",
+        "howTo": "Settings → Account → Delete my account"
+      },
+      "portability": {
+        "right": "Right to Portability",
+        "description": "Export your data in a standard format",
+        "howTo": "Included in data download (JSON format)"
+      },
+      "objection": {
+        "right": "Right to Object",
+        "description": "Refuse certain processing of your data",
+        "howTo": "Settings → Privacy → Consent management"
+      },
+      "limitation": {
+        "right": "Right to Restriction",
+        "description": "Temporarily limit processing of your data",
+        "howTo": "Contact our support team for specific request"
+      },
+      "howToLabel": "How to"
+    },
+    "security": {
+      "title": "Security Measures",
+      "subtitle": "How we protect your data",
+      "description": "We have implemented robust security measures to protect your data against any unauthorized access, modification, disclosure or destruction.",
+      "encryption": {
+        "measure": "End-to-End Encryption",
+        "description": "All your data is encrypted with AES-256 before storage"
+      },
+      "anonymization": {
+        "measure": "Confession Anonymization",
+        "description": "No possible link between your confessions and your identity"
+      },
+      "access": {
+        "measure": "Restricted Access",
+        "description": "Only authorized employees can access systems"
+      },
+      "monitoring": {
+        "measure": "24/7 Monitoring",
+        "description": "Automatic detection of intrusion attempts"
+      },
+      "backups": {
+        "measure": "Secure Backups",
+        "description": "Encrypted and geographically distributed backups"
+      },
+      "audits": {
+        "measure": "Regular Audits",
+        "description": "External security controls and certifications"
+      }
+    },
+    "dataTransfers": {
+      "title": "Data Transfers",
+      "description": "Your data is stored exclusively in data centers located in the European Union, ensuring GDPR compliance.",
+      "noThirdCountry": "No transfer to third countries is made without appropriate safeguards and your explicit consent."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "description": "We only keep your data for the time necessary for the purposes for which it was collected.",
+      "accountDeletion": "After deleting your account, all your data is permanently erased within 30 days."
+    },
+    "policyChanges": {
+      "title": "Changes to this Policy",
+      "description": "We may update this policy to reflect changes in our practices or for legal reasons.",
+      "notification": "We will notify you by email of any significant changes at least 30 days before they take effect."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "dpo": {
+        "title": "Data Protection Officer",
+        "email": "privacy@bodycount.app"
+      },
+      "general": {
+        "title": "General Questions",
+        "email": "hello@bodycount.app"
+      },
+      "cnil": "You can also exercise your rights with the CNIL if you consider that we do not comply with the regulations."
+    },
+    "finalSection": {
+      "title": "Your Data, Your Control",
+      "description": "Join BodyCount with confidence, knowing that your privacy is our absolute priority.",
+      "createAccount": "Create My Secure Account",
+      "learnMore": "Learn more about our security",
+      "features": "🇪🇺 Data hosted in Europe • 🔒 GDPR compliant • ⚖️ Complete transparency"
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "subtitle": "Understanding cookie usage on BodyCount",
+      "essential": {
+        "type": "Essential Cookies",
+        "purpose": "Basic application functionality",
+        "examples": "User session|Language preferences|CSRF security"
+      },
+      "analytics": {
+        "type": "Analytics Cookies",
+        "purpose": "User experience improvement",
+        "examples": "Pages visited|Time spent|Features used"
+      },
+      "personalization": {
+        "type": "Personalization Cookies",
+        "purpose": "Interface adaptation to your preferences",
+        "examples": "Dark/light theme|Element layout|Font size"
+      },
+      "required": "Required",
+      "optional": "Optional",
+      "examples": "Examples"
+    }
+  },
+  "termsPage": {
+    "header": {
+      "backToHome": "Back to Home",
+      "title": "Terms of Service",
+      "subtitle": "Clear and fair conditions governing the use of BodyCount. Your acceptance of these terms allows us to provide you with a secure and quality service.",
+      "lastUpdate": "Last updated: December 15, 2024 • Version 2.1",
+      "effectiveDate": "Effective date: January 1, 2025"
+    },
+    "introduction": {
+      "welcome": "Welcome to BodyCount",
+      "description": "These Terms of Service (\"Terms\") govern your access and use of BodyCount, a private diary application with AI analysis developed by BodyCount SAS.",
+      "acceptance": "By creating an account or using our services, you agree to be bound by these Terms. If you do not accept these terms, please do not use our services."
+    },
+    "serviceDescription": {
+      "title": "Service Description",
+      "description": "BodyCount is a mental wellness and personal introspection platform that allows you to keep a private journal, share anonymous confessions and benefit from personalized AI analysis.",
+      "features": {
+        "privateJournal": {
+          "feature": "Encrypted Private Journal",
+          "description": "Secure personal space for your reflections"
+        },
+        "anonymousConfessions": {
+          "feature": "Anonymous Confessions",
+          "description": "Anonymous sharing with no identity link"
+        },
+        "aiAnalysis": {
+          "feature": "AI Analysis",
+          "description": "Personalized insights on your evolution"
+        },
+        "creditSystem": {
+          "feature": "Credit System",
+          "description": "Transparent and fair economic model"
+        }
+      }
+    },
+    "userObligations": {
+      "title": "User Obligations",
+      "subtitle": "Important rules for responsible use",
+      "responsibleUse": {
+        "title": "Responsible Use",
+        "description": "Use our services respectfully and legally",
+        "details": "Do not share illegal, offensive or defamatory content|Respect other community users|Do not attempt to bypass our security measures|Maintain the confidentiality of your credentials"
+      },
+      "authenticContent": {
+        "title": "Authentic Content",
+        "description": "Your contributions must be personal and authentic",
+        "details": "Only publish your own content or content you have rights to|Avoid false confessions or testimonials|Respect others' intellectual property|Report any inappropriate content"
+      },
+      "accountSecurity": {
+        "title": "Account Security",
+        "description": "Protect your account and others'",
+        "details": "Use a strong and unique password|Never share your credentials|Enable two-factor authentication|Report any suspicious access immediately"
+      }
+    },
+    "prohibitedUses": {
+      "title": "Prohibited Uses",
+      "subtitle": "Behaviors strictly prohibited on the platform",
+      "list": "Harassment, intimidation or threats towards other users|Publication of hateful, discriminatory or violent content|Hacking, phishing or cyberattack attempts|Use of unauthorized bots or automation|Resale or transfer of credits to third parties|Creation of fake accounts or identity theft|Spam, unsolicited advertising or commercial content|Violation of local or international laws"
+    },
+    "paymentTerms": {
+      "title": "Payment Terms",
+      "subtitle": "Everything you need to know about payments and credits",
+      "payment": {
+        "aspect": "Payment Policy",
+        "description": "All payments are secured via Stripe",
+        "details": "Instant and secure payments|Accepted methods: CB, Visa, MasterCard, PayPal|Automatic billing for subscriptions|Currency: EUR (Euros)"
+      },
+      "credits": {
+        "aspect": "Credits and Usage",
+        "description": "Credits are non-refundable once used",
+        "details": "30 free credits upon registration|1 daily bonus credit|10 credits per AI analysis|Credits valid for 12 months after purchase"
+      },
+      "refunds": {
+        "aspect": "Refunds",
+        "description": "Specific refund conditions",
+        "details": "Refund possible within 14 days if credits unused|No refund for already consumed credits|Automatic refund in case of malfunction|Contact support@bodycount.app for any request"
+      }
+    },
+    "additionalSections": {
+      "servicesTitle": "Our Services",
+      "servicesSubtitle": "Main features we offer you",
+      "userAccountsTitle": "User Accounts and Responsibilities",
+      "accountCreation": {
+        "title": "Account Creation and Management",
+        "requirements": "You must be at least 16 years old to create an account|One email address per user account|You are responsible for maintaining the security of your account|Immediate notification required in case of unauthorized use|BodyCount reserves the right to suspend or delete accounts"
+      },
+      "intellectualProperty": {
+        "title": "Data and Intellectual Property",
+        "rights": "You retain all rights to the content you create|You grant BodyCount a license to provide our services|Your confessions remain anonymous and non-identifiable|AI analyses generated belong exclusively to you|Permanent deletion possible at any time"
+      },
+      "prohibitedUsesWarning": "Strictly Prohibited Behaviors",
+      "prohibitedUsesDescription": "These actions may result in immediate account suspension",
+      "creditSystemTitle": "Credit System and Payments",
+      "creditSystemSubtitle": "Transparent conditions for our economic model",
+      "liabilityTitle": "Liability Limitations",
+      "liabilityConditions": "BodyCount is provided \"as is\" without warranty of any kind|We do not guarantee 100% service availability|AI analyses are for informational purposes and do not constitute medical advice|Our liability is limited to the amount paid for services|We are not responsible for data loss due to force majeure",
+      "terminationTitle": "Termination",
+      "terminationConditions": "You can delete your account at any time|We may suspend your account for violation of conditions|Unused credits may be refunded according to our conditions|Deletion results in permanent erasure of all your data|Conditions continue to apply after termination",
+      "applicableLawTitle": "Applicable Law",
+      "applicableLawDescription": "These Terms are governed by French law.|Any dispute will be subject to the exclusive jurisdiction of the courts of Paris, France.|In case of dispute, we favor amicable resolution before any legal action.|European law provisions also apply (GDPR, DSA, etc.).",
+      "modificationsTitle": "Modifications",
+      "modificationsDescription": "We reserve the right to modify these Terms at any time.|Important modifications will be notified to you 30 days in advance by email.|Continued use after modification constitutes your acceptance.|You can view the version history on our website.",
+      "contactTitle": "Contact and Questions",
+      "contactDescription": "For any questions regarding these Terms of Service, please do not hesitate to contact us.",
+      "generalQuestions": "General Questions",
+      "legalAffairs": "Legal Affairs",
+      "companyInfo": "BodyCount SAS|SIRET: 123 456 789 00012|75001 Paris, France",
+      "callToActionTitle": "Ready to Start Your Journey?",
+      "callToActionDescription": "By creating your account, you accept these terms and join a community dedicated to mental wellness and personal introspection.",
+      "createAccount": "Create My Account",
+      "privacyPolicy": "Read our privacy policy",
+      "features": "🔒 Secure service • 🇫🇷 French company • ⚖️ GDPR compliant"
+    }
+  },
+  "supportPage": {
+    "header": {
+      "backToHome": "Back to Home",
+      "title": "Support Center",
+      "subtitle": "We're here to help! Quickly find answers to your questions or contact our dedicated team."
+    },
+    "categories": {
+      "title": "Help Categories",
+      "gettingStarted": {
+        "category": "Getting Started",
+        "description": "Begin with BodyCount",
+        "topics": "First steps|Configuration|Navigation"
+      },
+      "accountSecurity": {
+        "category": "Account & Security",
+        "description": "Managing your profile",
+        "topics": "Password|2FA|Deletion"
+      },
+      "creditsPayments": {
+        "category": "Credits & Payments",
+        "description": "Credit system",
+        "topics": "Purchase|Refund|Billing"
+      },
+      "features": {
+        "category": "Features",
+        "description": "Using the tools",
+        "topics": "Journal|AI|Confessions"
+      },
+      "technical": {
+        "category": "Technical Issues",
+        "description": "Bugs and malfunctions",
+        "topics": "Errors|Performance|Compatibility"
+      },
+      "wellbeing": {
+        "category": "Well-being",
+        "description": "Resources and advice",
+        "topics": "Tips|Resources|Community"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quickly find answers to your questions",
+      "categories": {
+        "general": "General",
+        "account": "Account",
+        "credits": "Credits",
+        "technical": "Technical"
+      },
+      "questions": {
+        "general": {
+          "q1": {
+            "question": "What is BodyCount and how does it work?",
+            "answer": "BodyCount is your private digital diary with AI analysis. Create journal entries, manage your relationships, share anonymous confessions and receive personalized insights on your evolution. The application uses AI to analyze your behavioral patterns and help you in your personal development."
+          },
+          "q2": {
+            "question": "How to use AI for my insights?",
+            "answer": "BodyCount's AI analyzes your journal entries, relationships and confessions to generate personalized insights. Go to the 'Analysis' section of your dashboard, select the desired type of analysis (emotional, relational, behavioral) and click 'Generate insight'. Each analysis costs 10 credits."
+          },
+          "q3": {
+            "question": "Is my data really secure?",
+            "answer": "Absolutely. We use end-to-end AES-256 encryption, your confessions are completely anonymous, and no data is sold to third parties. Our servers are hosted in Europe and GDPR compliant. You can enable two-factor authentication for even more security."
+          },
+          "q4": {
+            "question": "Can I use BodyCount for free?",
+            "answer": "Yes! You receive 30 free credits upon registration plus 1 daily bonus credit. Basic features (journal, relationships, confessions) are free. Only AI analyses cost 10 credits each."
+          }
+        },
+        "account": {
+          "q1": {
+            "question": "What to do if I forgot my password?",
+            "answer": "Click 'Forgot password' on the login page or go to Settings > Account > Change password. You can also reset your password directly from security settings. Check your spam if you don't receive the email."
+          },
+          "q2": {
+            "question": "How to delete my account?",
+            "answer": "Go to Settings > Account > Sensitive area > Delete my account permanently. You will need to type 'DELETE' in capital letters to confirm. All your data will be permanently erased. This action is irreversible."
+          },
+          "q3": {
+            "question": "How to enable two-factor authentication?",
+            "answer": "In Settings > Account > Advanced security > Two-factor authentication, click 'Enable'. Scan the QR code with Google Authenticator, enter the verification code and save your recovery codes. This is highly recommended for security."
+          },
+          "q4": {
+            "question": "How to change my age or information?",
+            "answer": "Go to Settings > Profile. You can modify your age (must be between 18 and 99 years) and your preferences. Email cannot be modified for security reasons."
+          }
+        },
+        "credits": {
+          "q1": {
+            "question": "How to buy credits?",
+            "answer": "Click on your credit balance in the header or go to Settings > Account > Buy credits. You will be redirected to the purchase page with several available packs: Beginner Pack (100 credits), Standard Pack (500 credits), Premium Pack (1000 credits)."
+          },
+          "q2": {
+            "question": "Why are some features paid?",
+            "answer": "AI analyses require significant computing resources and advanced AI models. That's why they cost 10 credits. All other features (journal, relationships, confessions, navigation) remain completely free. You receive 1 free credit per day."
+          },
+          "q3": {
+            "question": "How do credits work?",
+            "answer": "1 credit = 1 AI analysis costs 10 credits. You receive 30 free credits upon registration + 1 credit/day. Purchased credits are valid for 12 months, free ones don't expire. You can see your balance at the top right of the interface."
+          },
+          "q4": {
+            "question": "Can I get a refund?",
+            "answer": "Yes, full refund within 14 days if credits have not been used. Consumed credits are non-refundable. Contact support@bodycount.app with your order number for any request."
+          }
+        },
+        "technical": {
+          "q1": {
+            "question": "How to export my data?",
+            "answer": "Go to Settings > Data > Data export > Download my data (JSON). The file contains your profile, relationships, confessions and settings. Export is free and available 24/7. You can also request a ZIP export."
+          },
+          "q2": {
+            "question": "The application is not working properly, what to do?",
+            "answer": "1) Clear your browser cache, 2) Log out and log back in, 3) Check your internet connection, 4) Try in private browsing. If the problem persists, contact support@bodycount.app with error details and your browser."
+          },
+          "q3": {
+            "question": "Can I use BodyCount on mobile?",
+            "answer": "Yes! BodyCount is fully responsive and works perfectly on mobile via your browser. Add the site to your home screen for an app-like experience. Native iOS and Android applications are planned for 2025."
+          },
+          "q4": {
+            "question": "How to sync my data between devices?",
+            "answer": "Your data is automatically synchronized via your account. Simply log in with the same email/password on any device. All your entries, relationships and settings will be available instantly."
+          }
+        }
+      }
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "subtitle": "Direct access to important resources",
+      "guideStart": "Getting Started Guide",
+      "guideStartDesc": "First steps with BodyCount",
+      "securityCenter": "Security Center",
+      "securityCenterDesc": "Protect your account",
+      "privacyPolicy": "Privacy Policy",
+      "privacyPolicyDesc": "Your data and its protection",
+      "termsOfService": "Terms of Service",
+      "termsOfServiceDesc": "Rules and conditions",
+      "videoTutorials": "Video Tutorials",
+      "videoTutorialsDesc": "Learn by watching",
+      "apiDocumentation": "API Documentation",
+      "apiDocumentationDesc": "For developers"
+    },
+    "contactMethods": {
+      "title": "Contact Methods",
+      "emailSupport": "Email Support",
+      "emailSupportDesc": "Response within 24h on average",
+      "emailSupportAvailability": "7/7, 24h/24",
+      "emailUrgency": "Emergency Email",
+      "emailUrgencyDesc": "Security issues only",
+      "emailUrgencyAvailability": "Priority response",
+      "liveChat": "Live Chat",
+      "liveChatDesc": "Available during business hours",
+      "liveChatAvailability": "Mon-Fri, 9am-6pm CET",
+      "liveChatContact": "Integrated chat"
+    },
+    "search": {
+      "placeholder": "Search in FAQ...",
+      "noResults": "No results found for your search."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Our team responds quickly",
+      "form": {
+        "name": "Your name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Your message",
+        "category": "Category",
+        "send": "Send",
+        "sending": "Sending...",
+        "successMessage": "✅ Message prepared! Your email client will open. We will respond within 24h.",
+        "errorMessage": "❌ Error sending. Please try again or contact us directly."
+      },
+      "channels": {
+        "email": {
+          "title": "Email Support",
+          "description": "Response within 24h",
+          "address": "support@bodycount.app"
+        },
+        "community": {
+          "title": "Community",
+          "description": "Mutual help between users",
+          "action": "Join"
+        },
+        "documentation": {
+          "title": "Documentation",
+          "description": "Detailed guides",
+          "action": "Explore"
+        }
+      }
+    },
+    "finalSection": {
+      "title": "Need Immediate Help?",
+      "description": "Our support team is available 7 days a week to assist you. Don't hesitate to contact us for any question.",
+      "features": {
+        "quickResponse": {
+          "title": "Quick Response",
+          "description": "Email support within 24h"
+        },
+        "expertTeam": {
+          "title": "Expert Team",
+          "description": "BodyCount specialists"
+        },
+        "proactiveSupport": {
+          "title": "Proactive Support",
+          "description": "We anticipate your needs"
+        }
+      },
+      "contactSupport": "Contact Support",
+      "backToAccount": "Return to your account",
+      "footer": "💬 Chat available • 📧 Email 7/7 • 🔒 Secure support"
+    }
+  },
+  "homePage": {
+    "welcome": {
+      "title": "Bon retour,",
+      "exclamation": " !",
+      "subtitle": "Suivez vos relations et découvrez des insights sur vos connexions.",
+      "tipTitle": "💡 Conseil :",
+      "tipText": "Personnalisez votre profil en ajoutant un nom d'utilisateur dans vos",
+      "settings": "paramètres"
+    },
+    "stats": {
+      "relationships": {
+        "title": "Relations",
+        "subtitle": "Total enregistré"
+      },
+      "averageRating": {
+        "title": "Note Moyenne",
+        "subtitle": "Satisfaction générale"
+      },
+      "insights": {
+        "title": "Insights",
+        "subtitle": "Recommandations IA"
+      }
+    },
+    "quickActions": {
+      "addRelationship": "Ajouter une Relation",
+      "viewProfiles": "Voir les Profils",
+      "aiInsights": "Analyses IA",
+      "charts": "Graphiques"
+    },
+    "specialFeatures": {
+      "title": "Fonctionnalités Spéciales",
+      "confessions": {
+        "badge": "Anonyme",
+        "title": "Confessions anonymes",
+        "description": "Lisez ou postez une vraie confession, 100% anonyme, et réagissez avec des emojis sans noms.",
+        "button": "Accéder aux confessions"
+      },
+      "journal": {
+        "badge": "Privé",
+        "title": "Journal privé",
+        "description": "Écrivez vos pensées et émotions dans un journal privé que vous pouvez modifier à tout moment.",
+        "button": "Ouvrir mon journal"
+      },
+      "mirror": {
+        "badge": "Introspection",
+        "title": "Le miroir",
+        "description": "Un espace d'introspection pour décrire comment vous vous percevez et comment les autres vous voient.",
+        "button": "Commencer l'introspection"
+      },
+      "wishlist": {
+        "badge": "Secret",
+        "title": "Wishlist secrète",
+        "description": "Créez une liste d'expériences que vous aimeriez avoir et de personnes qui vous attirent.",
+        "button": "Gérer ma wishlist"
+      }
+    },
+    "quickNavigation": {
+      "title": "Navigation rapide",
+      "settings": {
+        "title": "Paramètres",
+        "description": "Gérez votre compte et préférences"
+      },
+      "insights": {
+        "title": "Analyses IA",
+        "description": "Découvrez vos patterns relationnels"
+      }
+    },
+    "emptyState": {
+      "title": "Aucune relation enregistrée",
+      "description": "Commencez à suivre vos relations pour obtenir des insights et recommandations personnalisés.",
+      "button": "Ajouter votre première relation"
+    },
+    "recentActivity": {
+      "title": "Activité récente",
+      "addedOn": "Ajouté le",
+      "rating": "Note :",
+      "viewAll": "Voir toutes les relations",
+      "noActivity": "Aucune activité récente"
+    },
+    "tips": {
+      "title": "💡 Conseils pour optimiser votre expérience",
+      "honest": {
+        "title": "Soyez honnête",
+        "description": "Des notes précises fournissent de meilleurs insights"
+      },
+      "charts": {
+        "title": "Consultez vos graphiques",
+        "description": "Découvrez vos patterns relationnels"
+      }
+    }
+  },
+  "notifications": {
+    "button": {
+      "dailyReminders": "Rappels quotidiens",
+      "actionsWaiting": "{count} action en attente",
+      "actionsWaitingPlural": "{count} actions en attente",
+      "allUpToDate": "Tout est à jour !",
+      "markAll": "Tout marquer"
+    },
+    "categories": {
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "reminder": "Rappel"
+    },
+    "priorities": {
+      "high": "Priorité haute",
+      "others": "Autres rappels"
+    },
+    "empty": {
+      "title": "Excellent travail !",
+      "description": "Toutes vos activités sont à jour. Revenez demain pour de nouveaux rappels."
+    },
+    "footer": "💡 Les rappels se réinitialisent chaque jour à 6h (heure française)",
+    "items": {
+      "confession": {
+        "title": "Confession anonyme",
+        "description": "Partagez vos pensées anonymement",
+        "action": "Poster une confession"
+      },
+      "journal": {
+        "title": "Journal privé",
+        "description": "Enregistrez vos réflexions quotidiennes",
+        "action": "Écrire dans le journal"
+      },
+      "mirror": {
+        "title": "Le miroir",
+        "description": "Introspection et développement personnel",
+        "action": "Faire de l'introspection"
+      },
+      "wishlist": {
+        "title": "Wishlist secrète",
+        "description": "Gérez vos désirs et objectifs",
+        "action": "Mettre à jour la wishlist"
+      },
+      "insights": {
+        "title": "Analyses IA",
+        "description": "Découvrez vos patterns relationnels",
+        "action": "Générer une analyse"
+      },
+      "charts": {
+        "title": "Graphiques",
+        "description": "Visualisez vos données",
+        "action": "Voir les graphiques"
+      },
+      "addRelation": {
+        "title": "Ajouter une relation",
+        "description": "Enrichissez votre profil relationnel",
+        "action": "Ajouter une relation"
+      }
+    }
+  },
+  "dailyToast": {
+    "title": "Bonjour ! 🌅",
+    "description": "Une nouvelle journée commence ! Vos rappels quotidiens vous attendent.",
+    "instruction": "Cliquez sur l'icône de notification pour voir les activités de votre journée"
+  },
+  "notificationDemo": {
+    "title": "Démo Notifications",
+    "pendingNotifications": "Notifications en attente :",
+    "simulateMorning": "Simuler 6h du matin",
+    "markAllDone": "Tout marquer comme fait",
+    "instructions": "Utilisez ces boutons pour tester le système de notifications sans attendre 6h du matin."
+  },
+  "creditsBadge": {
+    "credits": "crédits"
+  },
+  "profiles": {
+    "title": "Mes Relations",
+    "navigation": {
+      "back": "Retour"
+    },
+    "subtitle": {
+      "withCount": "{count} relation{plural} enregistrée{plural}",
+      "empty": "Aucune relation"
+    },
+    "stats": {
+      "total": "Total",
+      "totalRelationships": "Relations totales",
+      "averageRating": "Note moy.",
+      "averageRatingFull": "Note moyenne",
+      "addedThisMonth": "{count} ajoutée{plural} ce mois",
+      "ratedRelationships": "Sur {count} relation{plural} notée{plural}",
+      "dominantType": "Type dominant",
+      "thisMonth": "Ce mois-ci",
+      "newRelations": "Nouvelle{plural} relation{plural}"
+    },
+    "filters": {
+      "title": "Filtrer par type",
+      "all": "Toutes",
+      "romantic": "Romantiques",
+      "sexual": "Sexuelles",
+      "friendship": "Amitiés",
+      "friendzone": "Friendzone",
+      "other": "Autres"
+    },
+    "types": {
+      "romantic": "Romantique",
+      "sexual": "Sexuelle",
+      "friendship": "Amitié",
+      "friendzone": "Friendzone",
+      "other": "Autre"
+    },
+    "search": {
+      "placeholder": "Rechercher par nom, lieu, sentiments...",
+      "results": "{count} résultat{plural} trouvé{plural}",
+      "clearSearch": "Effacer la recherche"
+    },
+    "fields": {
+      "startDate": "Date de début",
+      "location": "Lieu",
+      "rating": "Note",
+      "feelings": "Sentiments",
+      "viewDetails": "Voir détails →",
+      "addedOn": "Ajouté le {date}"
+    },
+    "breakdown": {
+      "title": "Répartition par type",
+      "subtitle": "Analyse de vos relations",
+      "totalSummary": "{count} relation{plural} au total",
+      "averageRating": "Note moyenne: {rating}/10",
+      "recentCount": "{count} récente{plural}"
+    },
+    "debug": {
+      "title": "Diagnostic des Relations",
+      "totalRelations": "Relations totales",
+      "currentFilter": "Filtre actuel",
+      "filteredRelations": "Relations filtrées",
+      "existingTypes": "Types de relations existants",
+      "noRelations": "Aucune relation",
+      "calculatedStats": "Statistiques calculées",
+      "statsBreakdown": "Romantiques: {romantic}, Sexuelles: {sexual}, Amitiés: {friend}, Friendzone: {friendzone}, Autres: {other}",
+      "fullDiagnostic": "Diagnostic complet",
+      "testFiltering": "Test filtrage",
+      "detectedTypes": "Types détectés"
+    },
+    "buttons": {
+      "reload": "🔄 Recharger",
+      "enableRPC": "🔧 Activer RPC",
+      "testMode": "🔧 Mode test",
+      "debug": "🐛 Debug",
+      "add": "Ajouter"
+    },
+    "emptyState": {
+      "noResults": "Aucun résultat trouvé",
+      "noRelations": "Aucune relation enregistrée",
+      "noRelationsOfType": "Aucune relation {type}",
+      "tryModifyingSearch": "Essayez de modifier votre recherche ou changez les filtres.",
+      "startDocumenting": "Commencez à documenter vos relations pour créer votre journal personnel et obtenir des insights sur votre évolution.",
+      "addFirstRelation": "Ajouter votre première relation",
+      "createJournal": "✨ Créez votre carnet de bord relationnel personnalisé"
+    },
+    "modal": {
+      "ratingGiven": "Note donnée",
+      "startDate": "Date de début",
+      "meetingPlace": "Lieu de rencontre",
+      "relationshipDuration": "Durée de la relation",
+      "feelingsEmotions": "Sentiments & Émotions",
+      "privateNote": "Note privée",
+      "information": "Informations",
+      "relationshipAdded": "Relation ajoutée le {date}",
+      "close": "Fermer",
+      "delete": "Supprimer"
+    },
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer cette relation ?",
+    "errors": {
+      "deleteError": "Erreur lors de la suppression de la relation.",
+      "unexpected": "Une erreur inattendue s'est produite."
+    }
+  },
+  "addRelationship": {
+    "title": "Ajouter une relation",
+    "navigation": {
+      "back": "Retour"
+    },
+    "fields": {
+      "relationshipType": "Type de relation",
+      "nameOrNickname": "Nom ou surnom",
+      "startDate": "Date de début",
+      "endDate": "Date de fin (optionnel)",
+      "meetingPlace": "Lieu de rencontre",
+      "rating": "Note (1-10)",
+      "feelings": "Sentiments/Émotions",
+      "privateNotes": "Note privée"
+    },
+    "types": {
+      "romantic": "Romantique",
+      "sexual": "Sexuelle",
+      "friendship": "Amitié",
+      "friendzone": "Friendzone",
+      "other": "Autre"
+    },
+    "placeholders": {
+      "enterName": "Entrez un nom ou surnom",
+      "location": "Ex: Paris, en ligne, au travail...",
+      "feelings": "Comment vous sentiez-vous ? Quelles émotions avez-vous ressenties ?",
+      "privateNotes": "Détails personnels, souvenirs, réflexions..."
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "addRelationship": "Ajouter la relation",
+      "adding": "Ajout..."
+    },
+    "errors": {
+      "nameRequired": "Le nom est obligatoire.",
+      "notAuthenticated": "Utilisateur non authentifié. Veuillez vous reconnecter.",
+      "duplicateName": "Une relation avec ce nom existe déjà.",
+      "insertError": "Erreur lors de l'ajout: {message}",
+      "noDataReturned": "La relation n'a pas pu être créée. Aucune donnée retournée.",
+      "unexpected": "Une erreur inattendue s'est produite: {message}"
+    },
+    "success": {
+      "added": "Relation ajoutée avec succès !"
+    }
+  },
+  "insights": {
+    "title": "Insights IA",
+    "back": "Retour",
+    "stats": {
+      "totalRelations": "Total Relations",
+      "wishes": "Souhaits",
+      "averageRating": "Note Moyenne",
+      "selfReflection": "Auto-réflexion"
+    },
+    "analysis": {
+      "title": "Analyse IA Personnalisée",
+      "description": "Insights psychologiques basés sur vos données",
+      "creditsPerAnalysis": "10 crédits par analyse",
+      "analyzing": "Analyse en cours...",
+      "pleaseWait": "Veuillez patienter...",
+      "generate": "Générer l'analyse",
+      "renew": "Renouveler l'analyse",
+      "archive": "Archiver",
+      "clear": "Effacer"
+    },
+    "credits": {
+      "balance": "{count} crédits",
+      "buy": "Acheter",
+      "insufficient": "Crédits insuffisants",
+      "required": "Il vous faut 10 crédits pour générer une analyse IA.",
+      "current": "Vous avez actuellement {count} crédits.",
+      "dailyBonus": "Bonus quotidien",
+      "dailyBonusDescription": "Recevez automatiquement +1 crédit gratuit chaque jour !",
+      "buyCredits": "Acheter des crédits",
+      "close": "Fermer"
+    },
+    "archives": {
+      "title": "Archives ({count})",
+      "archiveTitle": "Archives des Analyses",
+      "search": "Rechercher...",
+      "allFolders": "Tous les dossiers",
+      "noResults": "Aucune analyse trouvée.",
+      "noArchives": "Aucune analyse archivée.",
+      "viewComplete": "Voir l'analyse complète"
+    },
+    "archiveModal": {
+      "title": "Archiver l'analyse",
+      "titleLabel": "Titre *",
+      "titlePlaceholder": "Ex: Analyse de janvier 2024",
+      "folderLabel": "Dossier",
+      "folderPlaceholder": "Non classé",
+      "tagsLabel": "Tags (séparés par des virgules)",
+      "tagsPlaceholder": "relations, amélioration, objectifs",
+      "cancel": "Annuler",
+      "archive": "Archiver"
+    },
+    "emptyState": {
+      "title": "Aucune donnée à analyser",
+      "description": "Pour obtenir une analyse IA personnalisée, ajoutez d'abord des données :",
+      "addRelations": "Ajouter des relations",
+      "addWishes": "Ajouter des souhaits",
+      "completeMirror": "Compléter le miroir"
+    },
+    "showMore": "Voir l'analyse complète",
+    "showLess": "Voir moins"
+  },
+  "charts": {
+    "title": "Graphiques & Statistiques Avancées",
+    "back": "Retour",
+    "navigation": {
+      "types": "Types de relations",
+      "ratings": "Notes données",
+      "timeline": "Chronologie",
+      "locations": "Lieux",
+      "preferences": "Préférences",
+      "correlation": "Corrélations"
+    },
+    "stats": {
+      "totalRelations": "Total Relations",
+      "averageRating": "Note Moyenne",
+      "medianRating": "Note Médiane",
+      "dominantType": "Type Principal",
+      "uniqueLocations": "Lieux Uniques"
+    },
+    "types": {
+      "title": "Distribution des types de relations",
+      "romantic": "Romantiques",
+      "sexual": "Sexuelles",
+      "friend": "Amitiés",
+      "friendzone": "Friendzone",
+      "other": "Autres"
+    },
+    "ratings": {
+      "title": "Distribution des notes",
+      "histogramTitle": "🟡 Histogramme - Répartition des notes données",
+      "description": "Répartition des notes données à vos relations",
+      "averageLabel": "Note moyenne",
+      "noRatings": "Aucune note donnée",
+      "addRatings": "Ajoutez des notes à vos relations pour voir leur distribution",
+      "analysisTitle": "📊 Analyse de vos habitudes de notation",
+      "average": "Moyenne",
+      "median": "Médiane",
+      "ratedRelations": "Relations notées",
+      "generous": "Généreuse",
+      "balanced": "Équilibrée",
+      "strict": "Sévère",
+      "times": "fois",
+      "insightsTitle": "💡 Insights sur vos habitudes",
+      "generalTrend": "🎯 Tendance générale",
+      "mostFrequentRating": "📈 Note la plus fréquente",
+      "generousTrend": "Vous êtes plutôt généreuse dans vos notes, ce qui suggère une attitude positive.",
+      "balancedTrend": "Vous avez une approche équilibrée de la notation, ni trop sévère ni trop généreuse.",
+      "strictTrend": "Vous êtes plutôt sévère dans vos notes, vous avez des standards élevés.",
+      "mostFrequentText": "Vous donnez le plus souvent la note",
+      "noRatingsEmpty": "Aucune note enregistrée",
+      "addRatingsEmpty": "Ajoutez des notes à vos relations pour voir l'histogramme"
+    },
+    "timeline": {
+      "title": "Chronologie des relations",
+      "interactiveTitle": "🟢 Timeline interactive - Chronologie des relations",
+      "description": "Évolution temporelle de vos relations",
+      "mostActiveMonth": "Mois le plus actif",
+      "averageFrequency": "Fréquence moyenne",
+      "dominantType": "Type dominant",
+      "noData": "Aucune donnée temporelle",
+      "addDates": "Ajoutez des dates à vos relations pour voir la chronologie",
+      "relations": "relations",
+      "relationsPerMonth": "relations/mois",
+      "notEnoughData": "Pas assez de données",
+      "temporalAnalysis": "📅 Analyse temporelle",
+      "mostActivePeriod": "📊 Période la plus active",
+      "averageFrequencyAnalysis": "⏱️ Fréquence moyenne",
+      "dominantTypeAnalysis": "🎯 Type dominant"
+    },
+    "locations": {
+      "title": "Carte interactive - Lieux de rencontre",
+      "interactiveTitle": "🔵 Carte interactive - Lieux de rencontre",
+      "meetings": "rencontres",
+      "noLocations": "Aucun lieu enregistré",
+      "ofTotal": "% du total"
+    },
+    "preferences": {
+      "title": "Spider/Radar chart - Préférences comportementales",
+      "spiderTitle": "🟠 Spider/Radar chart - Préférences comportementales",
+      "analysis": "Analyse des préférences",
+      "averageRatings": "Notes moyennes",
+      "locationDiversity": "Diversité des lieux",
+      "relationshipFrequency": "Fréquence relations",
+      "globalSatisfaction": "Satisfaction globale",
+      "typeVariety": "Variété des types",
+      "notEnoughData": "Pas assez de données pour l'analyse comportementale"
+    },
+    "correlation": {
+      "title": "Corrélation: Type vs Note Moyenne",
+      "correlationTitle": "Corrélation: Type vs Note Moyenne",
+      "notEnoughData": "Pas assez de données pour afficher ce graphique."
+    },
+    "emptyState": {
+      "noData": "Pas assez de données pour afficher ce graphique",
+      "addRelations": "Ajoutez des relations pour voir les statistiques"
+    }
+  },
+  "confessions": {
+    "title": "Confessions",
+    "subtitle": "Partagez en toute liberté",
+    "shareButton": "Partager",
+    "timeAgo": {
+      "now": "À l'instant",
+      "hoursAgo": "Il y a {hours}h",
+      "daysAgo": "Il y a {days}j"
+    },
+    "examples": {
+      "firstTime": "J'ai eu ma première fois à 23 ans et j'avais tellement honte de le dire que j'ai menti pendant des années. Maintenant je réalise que c'est complètement normal ! Chacun va à son rythme 💪",
+      "education": "Petite confession du jour : j'ai découvert des ressources qui m'ont vraiment aidé à comprendre ma sexualité. L'éducation sexuelle, c'est important ! 🌈 À mettre 🔗",
+      "loveAtFirstSight": "J'ai eu le coup de foudre pour quelqu'un dans le métro aujourd'hui. On s'est regardés pendant tout le trajet mais je n'ai pas osé lui parler... 😔💔"
+    },
+    "comments": {
+      "example": "Merci de partager ça, ça me rassure énormément ! 🙏"
+    },
+    "share": {
+      "title": "Confession anonyme",
+      "linkCopied": "Lien copié !"
+    },
+    "reportModal": {
+      "title": "Signaler ce contenu :",
+      "reasons": {
+        "inappropriate": "Contenu inapproprié",
+        "harassment": "Harcèlement",
+        "spam": "Spam",
+        "misinformation": "Fausses informations",
+        "other": "Autre"
+      },
+      "reported": "Contenu signalé pour : {reason}"
+    },
+    "newConfession": {
+      "title": "Nouvelle confession",
+      "placeholder": "Partagez votre histoire anonymement...",
+      "characterCount": "{count}/1000",
+      "dragDrop": {
+        "dragHere": "Glissez vos médias ici ou",
+        "clickToSelect": "cliquez pour sélectionner",
+        "fileTypes": "Images, GIF, vidéos • Max 3 fichiers • 50MB max"
+      },
+      "preview": "Aperçu",
+      "buttons": {
+        "cancel": "Annuler",
+        "publish": "Publier"
+      }
+    },
+    "commentsDrawer": {
+      "title": "Commentaires ({count})",
+      "placeholder": "Ajouter un commentaire...",
+      "anonymous": "Anonyme"
+    },
+    "actions": {
+      "report": "Signaler",
+      "downloadMedia": "Télécharger le média"
+    }
+  },
+  "journal": {
+    "title": "Journal intime",
+    "subtitle": "Vos pensées et émotions privées",
+    "backButton": "Retour",
+    "writeButton": "Écrire",
+    "privacy": {
+      "title": "🔐 Confidentialité totale",
+      "description": "Vos écrits sont chiffrés et stockés localement. Aucun accès externe à votre journal."
+    },
+    "stats": {
+      "totalEntries": "Total d'entrées",
+      "thisMonth": "Ce mois",
+      "readingTime": "Temps de lecture"
+    },
+    "moods": {
+      "happy": "Heureux",
+      "sad": "Triste",
+      "inLove": "Amoureux",
+      "frustrated": "Frustré",
+      "thoughtful": "Pensif",
+      "tired": "Fatigué",
+      "excited": "Excité",
+      "anxious": "Anxieux"
+    },
+    "filters": {
+      "searchPlaceholder": "Rechercher dans vos entrées...",
+      "allMoods": "Toutes les humeurs",
+      "sortByDate": "Trier par date",
+      "sortByTitle": "Trier par titre",
+      "sortByMood": "Trier par humeur"
+    },
+    "viewMode": {
+      "cards": "Cartes",
+      "list": "Liste"
+    },
+    "timeAgo": {
+      "today": "Aujourd'hui",
+      "yesterday": "Hier",
+      "daysAgo": "Il y a {days} jours"
+    },
+    "readingTime": "{minutes} min",
+    "private": "Privé",
+    "examples": {
+      "loneliness": {
+        "title": "la solitude",
+        "content": "j'ai des reves de couple mais en ce moment je suis seul et ce n'est pas terrible"
+      },
+      "test": {
+        "title": "test",
+        "content": "blablablabla"
+      },
+      "reflections": {
+        "title": "Réflexions sur mes relations",
+        "content": "Je me demande parfois si je suis fait pour les relations sérieuses. J'ai tendance à fuir dès que ça devient trop intense. Peut-être que j'ai peur de l'engagement, ou peut-être que je n'ai simplement pas trouvé la bonne personne..."
+      }
+    },
+    "emptyState": {
+      "noEntries": "Votre journal vous attend",
+      "noResults": "Aucune entrée trouvée",
+      "noEntriesDescription": "Commencez à écrire vos pensées et émotions dans votre journal privé. Chaque mot compte.",
+      "noResultsDescription": "Essayez de modifier vos critères de recherche pour trouver ce que vous cherchez.",
+      "writeFirstEntry": "Écrire ma première entrée"
+    },
+    "newEntry": {
+      "title": "✍️ Nouvelle entrée",
+      "titleLabel": "Titre de votre entrée",
+      "titlePlaceholder": "Donnez un titre à votre entrée...",
+      "moodLabel": "Comment vous sentez-vous ?",
+      "tagsLabel": "Tags (optionnel)",
+      "tagsPlaceholder": "Ajoutez des tags pour organiser vos entrées...",
+      "addTag": "Ajouter",
+      "contentLabel": "Vos pensées et émotions",
+      "contentPlaceholder": "Écrivez librement vos pensées, émotions, réflexions...",
+      "readingTimeEstimate": "≈ {minutes} min de lecture",
+      "privateLabel": "Entrée privée (recommandé)",
+      "saveButton": "Enregistrer mon entrée",
+      "cancelButton": "Annuler"
+    },
+    "editEntry": {
+      "title": "✏️ Modifier l'entrée",
+      "titleLabel": "Titre",
+      "moodLabel": "Humeur",
+      "contentLabel": "Contenu",
+      "saveButton": "Sauvegarder",
+      "cancelButton": "Annuler"
+    },
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette entrée ?",
+    "expandButton": "Lire plus",
+    "collapseButton": "Voir moins"
+  },
+  "mirror": {
+    "title": "Le Miroir",
+    "subtitle": "Espace d'introspection personnelle",
+    "backButton": "Retour",
+    "welcome": {
+      "title": "🪞 Bienvenue dans votre espace d'introspection",
+      "description": "Prenez le temps de réfléchir sur vous-même, vos qualités, vos défis et votre évolution personnelle. Cette réflexion vous aidera à mieux vous connaître et à développer votre confiance en vous.",
+      "completed": "🎉 Félicitations ! Vous avez complété votre introspection à 100% !"
+    },
+    "tabs": {
+      "self": "Comment je me vois",
+      "others": "Comment les autres me voient",
+      "growth": "Développement personnel"
+    },
+    "content": {
+      "self": {
+        "title": "Comment je me vois"
+      },
+      "others": {
+        "title": "Comment les autres me voient"
+      },
+      "growth": {
+        "title": "Développement personnel",
+        "confidenceTitle": "Niveau de confiance en moi",
+        "confidenceLow": "1 - Très faible",
+        "confidenceHigh": "10 - Très élevé"
+      },
+      "addItem": "Ajouter un élément..."
+    },
+    "aiTips": {
+      "title": "Conseils IA pour une introspection efficace",
+      "honest": {
+        "title": "Soyez honnête",
+        "description": "L'introspection n'est efficace que si vous êtes sincère"
+      },
+      "takeTime": {
+        "title": "Prenez votre temps",
+        "description": "Réfléchissez vraiment avant de répondre"
+      },
+      "askFeedback": {
+        "title": "Demandez des retours",
+        "description": "Sollicitez l'avis de vos proches"
+      },
+      "updateRegularly": {
+        "title": "Mettez à jour régulièrement",
+        "description": "Votre perception évolue avec le temps"
+      }
+    },
+    "buttons": {
+      "edit": "Modifier",
+      "save": "Sauvegarder",
+      "saving": "Sauvegarde...",
+      "history": "Historique",
+      "share": "Partager",
+      "download": "Télécharger"
+    },
+    "sections": {
+      "self": {
+        "qualities": {
+          "title": "Mes principales qualités",
+          "placeholder": "ex: Empathique, Créatif, Déterminé..."
+        },
+        "skills": {
+          "title": "Mes compétences et talents",
+          "placeholder": "ex: Bon·ne auditeur·rice, Résolution de problèmes..."
+        },
+        "values": {
+          "title": "Mes valeurs fondamentales",
+          "placeholder": "ex: Honnêteté, Famille, Liberté..."
+        },
+        "challenges": {
+          "title": "Mes axes d'amélioration",
+          "placeholder": "ex: Être plus patient·e, Exprimer mes émotions..."
+        },
+        "defects": {
+          "title": "Mes défauts que j'accepte", 
+          "placeholder": "ex: Je suis impatient·e, Je procrastine..."
+        },
+        "personalGoals": {
+          "title": "Mes objectifs personnels",
+          "placeholder": "ex: Devenir riche, Apprendre une langue..."
+        },
+        "unique": {
+          "title": "Ce qui me rend unique",
+          "placeholder": "ex: Mon sens de l'humour, Ma créativité..."
+        }
+      },
+      "others": {
+        "compliments": {
+          "title": "Compliments que je reçois souvent",
+          "placeholder": "ex: 'Tu es si compréhensif·ve', 'Tu es drôle'..."
+        },
+        "feedback": {
+          "title": "Retours constructifs des autres",
+          "placeholder": "ex: 'Tu pourrais être plus assertif·ve'..."
+        },
+        "impression": {
+          "title": "Première impression que je donne",
+          "placeholder": "ex: Timide mais chaleureux·se, Confiant·e, Mystérieux·se..."
+        },
+        "relationships": {
+          "title": "Comment je suis en relation",
+          "placeholder": "ex: Fidèle, A besoin d'espace, Très attentionné·e..."
+        },
+        "feedbackFromLovedOnes": {
+          "title": "Retours de mes proches",
+          "placeholder": "ex: Tu écoutes bien, Tu es toujours là..."
+        },
+        "strengths": {
+          "title": "Mes forces selon les autres",
+          "placeholder": "ex: Ta persévérance, Ton empathie..."
+        },
+        "improvementPoints": {
+          "title": "Points d'amélioration suggérés",
+          "placeholder": "ex: Ta façon de draguer, Sois plus assertif·ve..."
+        }
+      },
+      "growth": {
+        "goals": {
+          "title": "Mes objectifs personnels",
+          "placeholder": "ex: Développer ma confiance, Apprendre à dire non..."
+        },
+        "achievements": {
+          "title": "Mes accomplissements récents",
+          "placeholder": "ex: Terminé un projet, Amélioré une compétence..."
+        },
+        "learnings": {
+          "title": "Ce que j'ai appris sur moi",
+          "placeholder": "ex: J'ai besoin de temps seul·e pour me ressourcer..."
+        },
+        "next": {
+          "title": "Prochaines étapes pour mon développement",
+          "placeholder": "ex: Suivre un cours de prise de parole en public..."
+        },
+        "workingOn": {
+          "title": "Ce sur quoi je travaille",
+          "placeholder": "ex: Communication assertive, Gestion du stress..."
+        }
+      }
+    },
+    "progress": {
+      "completion": "{percent}% complété",
+      "sectionsLeft": "{count} sections restantes"
+    },
+    "confidence": {
+      "title": "Mon niveau de confiance",
+      "level1": "Très faible",
+      "level2": "Faible",
+      "level3": "Modéré",
+      "level4": "Bon",
+      "level5": "Très élevé"
+    },
+    "editor": {
+      "addItem": "Ajouter un élément",
+      "addPlaceholder": "Ajouter un nouvel élément...",
+      "removeItem": "Supprimer",
+      "emptySection": "Cette section est vide. Cliquez sur 'Ajouter un élément' pour commencer."
+    },
+    "history": {
+      "title": "Historique des réflexions",
+      "loadError": "Erreur lors du chargement de l'historique",
+      "empty": "Aucun historique disponible",
+      "lastUpdate": "Dernière mise à jour le {date}"
+    },
+    "share": {
+      "title": "Partager ma réflexion",
+      "description": "Générer un résumé partageable de votre introspection",
+      "generating": "Génération...",
+      "error": "Erreur lors de la génération du résumé"
+    },
+    "messages": {
+      "saveSuccess": "Modifications enregistrées !",
+      "saveError": "Erreur lors de la sauvegarde.",
+      "loadError": "Erreur de chargement des données. Réessayez."
+    }
+  },
+  "wishlist": {
+    "title": "Ma Wishlist Secrète",
+    "backToHome": "Retour à l'accueil",
+    "share": "Partager la wishlist",
+    "export": "Exporter la wishlist",
+    "addWish": "Ajouter un souhait",
+    "stats": {
+      "total": "Total",
+      "completed": "Réalisés",
+      "progress": "Progression",
+      "streak": "Série",
+      "wishes": "souhaits",
+      "accomplished": "accomplis",
+      "completedPercent": "complété",
+      "onFire": "en feu"
+    },
+    "categories": {
+      "all": "Tout",
+      "experience": "Expériences",
+      "person": "Personnes",
+      "place": "Lieux",
+      "goal": "Objectifs",
+      "experienceDesc": "Voyages, aventures, nouvelles expériences",
+      "personDesc": "Rencontres, relations, connexions",
+      "placeDesc": "Endroits à visiter, découvrir",
+      "goalDesc": "Buts personnels, accomplissements"
+    },
+    "priority": {
+      "high": "Haute",
+      "medium": "Moyenne", 
+      "low": "Basse",
+      "highDesc": "Très important, priorité absolue",
+      "mediumDesc": "Important mais pas urgent",
+      "lowDesc": "Souhaitable mais pas prioritaire"
+    },
+    "categoryProgress": "Progression par catégorie",
+    "motivationalMessages": {
+      "perfect": "🎉 Incroyable ! Vous avez réalisé tous vos souhaits !",
+      "excellent": "🚀 Vous êtes sur la bonne voie ! Plus que {remaining} souhaits à réaliser.",
+      "good": "💪 Bon travail ! Vous avez déjà accompli la moitié de vos objectifs.",
+      "start": "✨ Excellent début ! Chaque souhait réalisé vous rapproche de vos rêves.",
+      "begin": "🌟 Votre aventure commence ! Ajoutez vos premiers souhaits et commencez à les réaliser."
+    },
+    "completedCount": "{percentage}% complété",
+    "remaining": "{count} restants",
+    "filters": {
+      "filters": "Filtres",
+      "active": "Actifs",
+      "advancedFilters": "Filtres avancés",
+      "all": "Tous",
+      "todo": "À faire",
+      "completed": "Réalisés",
+      "priority": "Priorité",
+      "allPriorities": "Toutes",
+      "high": "Haute",
+      "medium": "Moyenne",
+      "low": "Basse",
+      "targetDate": "Date cible",
+      "from": "Du",
+      "to": "au",
+      "clear": "Effacer",
+      "resetAdvancedFilters": "Réinitialiser les filtres avancés",
+      "activeFilters": "Filtres actifs :",
+      "fromDate": "À partir du {date}",
+      "toDate": "Jusqu'au {date}"
+    },
+    "empty": {
+      "message": "Aucun souhait ne correspond à vos filtres actuels.",
+      "addFirst": "Ajouter votre premier souhait"
+    },
+    "buttons": {
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "complete": "Terminer",
+      "undo": "Annuler"
+    },
+    "modal": {
+      "createTitle": "Nouveau souhait",
+      "editTitle": "Modifier le souhait",
+      "category": "Catégorie",
+      "titleLabel": "Titre *",
+      "titleRequired": "Le titre est obligatoire",
+      "titlePlaceholder": "Ex: Faire un voyage en solo au Japon",
+      "description": "Description",
+      "descriptionPlaceholder": "Décrivez votre souhait en détail...",
+      "priority": "Priorité",
+      "targetDate": "Date cible (optionnel)",
+      "tagsLabel": "Tags (max 10)",
+      "addTag": "Ajouter",
+      "tagPlaceholder": "Ajouter un tag...",
+      "imageLabel": "Image (optionnel)",
+      "dragImage": "Glissez une image ici ou",
+      "clickToSelect": "cliquez pour sélectionner",
+      "uploading": "Téléchargement...",
+      "imageFormats": "PNG, JPG, GIF jusqu'à 5MB",
+      "imageTypeError": "Veuillez sélectionner une image",
+      "imageSizeError": "L'image ne doit pas dépasser 5MB", 
+      "imageUploadError": "Erreur lors de l'upload de l'image.",
+      "imageUploadFailure": "Erreur lors du téléchargement de l'image.",
+      "unexpectedError": "Une erreur inattendue est survenue.",
+      "cancel": "Annuler",
+      "update": "Mettre à jour",
+      "create": "Créer le souhait"
+    },
+    "toast": {
+      "deleteConfirm": "Voulez-vous vraiment supprimer {title} ?",
+      "delete": "Supprimer",
+      "cancel": "Annuler",
+      "deleted": "Souhait supprimé !",
+      "updated": "Souhait mis à jour !",
+      "added": "Souhait ajouté !",
+      "goalAchieved": "Objectif atteint ! Félicitations ! 🎉",
+      "statusUpdated": "Statut mis à jour !",
+      "updateError": "Erreur lors de la mise à jour.",
+      "unexpectedError": "Une erreur inattendue est survenue."
+    },
+    "shareModal": {
+      "title": "Partager ma wishlist",
+      "subtitle": "Créez un lien pour partager vos souhaits",
+      "warning": {
+        "title": "Partage public",
+        "message": "Votre wishlist sera visible par toute personne ayant le lien. Assurez-vous de ne partager que ce que vous êtes à l'aise de rendre public."
+      },
+      "durationLabel": "Durée de validité du lien",
+      "duration": {
+        "24h": "24 heures",
+        "24hDesc": "Le lien expirera dans 24h",
+        "7d": "7 jours", 
+        "7dDesc": "Le lien expirera dans 7 jours",
+        "permanent": "Permanent",
+        "permanentDesc": "Le lien n'expire jamais"
+      },
+      "generating": "Génération du lien...",
+      "generateButton": "Générer le lien de partage",
+      "success": {
+        "title": "Lien créé avec succès !",
+        "message": "Votre wishlist est maintenant partageable"
+      },
+      "linkLabel": "Lien de partage",
+      "copy": "Copier",
+      "copied": "Copié",
+      "shareVia": "Partager via...",
+      "twitterText": "Découvrez ma wishlist secrète !",
+      "webapi": {
+        "title": "Ma Wishlist Secrète",
+        "text": "Découvrez mes rêves et objectifs personnels"
+      },
+      "expiration": {
+        "never": "Ce lien n'expire jamais",
+        "willExpire": "Ce lien expirera {duration}",
+        "in24h": "dans 24 heures",
+        "in7d": "dans 7 jours"
+      },
+      "createNew": "Créer un nouveau lien",
+      "footerNote": "Les liens partagés sont publics et accessibles à tous",
+      "close": "Fermer",
+      "error": {
+        "generation": "Erreur lors de la génération du lien",
+        "copy": "Erreur lors de la copie"
+      }
+    },
+    "exportData": {
+      "title": "MA WISHLIST SECRÈTE",
+      "filename": "ma-wishlist.txt"
+    }
+  }
+} 

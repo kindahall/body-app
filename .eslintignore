@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.next/
+
+# Build outputs
+out/
+build/
+dist/
+
+# Generated files
+.next/types/
+tsconfig.tsbuildinfo
+
+# Database and migration files
+*.sql
+migrations/
+
+# Scripts (utility scripts that don't need strict linting)
+scripts/
+*.js
+
+# Test files that may have relaxed rules
+test/
+**/*.test.*
+**/*.spec.*
+
+# Configuration files
+next.config.js
+tailwind.config.*
+postcss.config.*
+vitest.config.*
+
+# Environment files
+.env*
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp 

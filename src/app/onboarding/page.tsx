@@ -49,8 +49,8 @@ export default function OnboardingPage() {
 
       // Redirect to home
       router.push('/home')
-    } catch (error) {
-      console.error('Onboarding error:', error)
+    } catch (error: any) {
+      console.error('Unexpected onboarding error:', error.message || error)
       setError('Failed to complete setup. Please try again.')
     } finally {
       setIsLoading(false)
@@ -67,8 +67,8 @@ export default function OnboardingPage() {
               <Heart className="h-8 w-8 text-white" />
             </div>
           </div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome to BodyCount</h1>
-          <p className="text-gray-600">Let's set up your profile</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Bienvenue sur BodyCount</h1>
+          <p className="text-gray-600">Configurons votre profil</p>
         </div>
 
         {/* Onboarding Form */}
@@ -84,7 +84,7 @@ export default function OnboardingPage() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-4">
               <Globe className="h-5 w-5 text-gray-600" />
-              <h2 className="text-lg font-semibold text-gray-900">Choose your language</h2>
+              <h2 className="text-lg font-semibold text-gray-900">Choisissez votre langue</h2>
             </div>
             
             <div className="grid grid-cols-1 gap-3">
