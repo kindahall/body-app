@@ -91,6 +91,31 @@ export function AuthProvider({ children }: AuthProviderProps) {
       if (error && error.code !== 'PGRST116') {
         throw error
       }
+      
+      // Si aucun profil n'existe, créer un profil par défaut
+      if (!data && error?.code === 'PGRST116') {
+        console.log('No user profile found, creating default profile...')
+        const { data: newProfile, error: createError } = await supabase
+          .from('users')
+          .insert({
+            id: userId,
+            email: user?.email || '',
+            lang: 'fr', // Langue par défaut
+            subscription_status: 'free'
+          })
+          .select()
+          .single()
+        
+        if (createError) {
+          console.error('Error creating user profile:', createError)
+          setProfile(null)
+          return null
+        }
+        
+        setProfile(newProfile)
+        return newProfile
+      }
+      
       setProfile(data)
       return data
     } catch (error) {
@@ -98,7 +123,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       setProfile(null)
       return null
     }
-  }, [supabase])
+  }, [supabase, user])
 
   const fetchRelationshipCount = useCallback(async (userId: string) => {
     try {
@@ -218,10 +243,13 @@ export function AuthProvider({ children }: AuthProviderProps) {
             console.warn('⚠️ Erreur lors de la vérification du bonus quotidien:', error)
           }
           
-          if (!userProfile) {
-            router.push('/onboarding')
-          } else {
+          // Si le profil existe (même nouvellement créé), aller au dashboard
+          // Seulement rediriger vers onboarding si la création du profil a échoué
+          if (userProfile) {
             router.push('/home')
+          } else {
+            console.log('Failed to create/fetch user profile, redirecting to onboarding')
+            router.push('/onboarding')
           }
         } else if (event === 'SIGNED_OUT') {
           setProfile(null)

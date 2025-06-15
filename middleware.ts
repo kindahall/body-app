@@ -33,7 +33,7 @@ export async function middleware(request: NextRequest) {
   } = await supabase.auth.getSession()
 
   // Permettre l'accès aux pages publiques
-  const publicPaths = ['/auth', '/signup', '/reset-password', '/']
+  const publicPaths = ['/auth', '/signup', '/reset-password', '/', '/onboarding']
   const isPublicPath = publicPaths.some(path => 
     request.nextUrl.pathname === path || request.nextUrl.pathname.startsWith(path + '/')
   )
