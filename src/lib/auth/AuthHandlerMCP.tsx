@@ -40,7 +40,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   const router = useRouter()
   const supabase = createClientComponentClient()
 
-  const fetchUserProfile = useCallback(async (userId: string) => {
+  const fetchUserProfile = useCallback(async (userId: string, email?: string) => {
     try {
       const { data, error } = await supabase
         .from('users')
@@ -59,7 +59,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
           .from('users')
           .insert({
             id: userId,
-            email: user?.email || '',
+            email: email || '',
             lang: 'fr', // Langue par défaut
             subscription_status: 'free'
           })
@@ -83,7 +83,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       setProfile(null)
       return null
     }
-  }, [supabase, user])
+  }, [supabase])
 
   const fetchRelationshipCount = useCallback(async (userId: string) => {
     try {
@@ -100,53 +100,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
     }
   }, [supabase])
 
-  // Gérer la visibilité de la page pour maintenir la session
-  useEffect(() => {
-    let isChecking = false
-    
-    const checkSession = async () => {
-      if (isChecking || !user) return
-      isChecking = true
-      
-      try {
-        const { data: { session }, error } = await supabase.auth.getSession()
-        if (error) {
-          console.error('Error checking session:', error)
-          return
-        }
-        
-        if (!session) {
-          console.log('Session expired, signing out...')
-          setUser(null)
-          setProfile(null)
-          setSession(null)
-          setRelationshipCount(0)
-          router.push('/auth')
-        }
-      } catch (error) {
-        console.error('Error during session check:', error)
-      } finally {
-        isChecking = false
-      }
-    }
-
-    const handleVisibilityChange = () => {
-      if (document.visibilityState === 'visible') {
-        checkSession()
-      }
-    }
-
-    // Vérification périodique moins fréquente (toutes les 5 minutes)
-    const sessionCheckInterval = setInterval(checkSession, 5 * 60 * 1000)
-
-    document.addEventListener('visibilitychange', handleVisibilityChange)
-    
-    return () => {
-      document.removeEventListener('visibilitychange', handleVisibilityChange)
-      clearInterval(sessionCheckInterval)
-    }
-  }, [user, supabase, router])
-
   useEffect(() => {
     let mounted = true
 
@@ -159,7 +112,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         setUser(session?.user ?? null)
         
         if (session?.user) {
-          await fetchUserProfile(session.user.id)
+          await fetchUserProfile(session.user.id, session.user.email)
           await fetchRelationshipCount(session.user.id)
         }
         
@@ -180,7 +133,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         setUser(session?.user ?? null)
         
         if (event === 'SIGNED_IN' && session?.user) {
-          const userProfile = await fetchUserProfile(session.user.id)
+          const userProfile = await fetchUserProfile(session.user.id, session.user.email)
           await fetchRelationshipCount(session.user.id)
           
           // Déclencher le bonus quotidien à la connexion
@@ -206,7 +159,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         } else if (event === 'TOKEN_REFRESHED' && session?.user) {
           // Réactualiser le profil utilisateur après le rafraîchissement du token
           console.log('Token refreshed, updating user profile')
-          await fetchUserProfile(session.user.id)
+          await fetchUserProfile(session.user.id, session.user.email)
         }
         
         setIsLoading(false)
