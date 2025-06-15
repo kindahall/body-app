@@ -2,7 +2,6 @@
 
 import { createContext, useContext, useEffect, useState, ReactNode, useCallback } from 'react'
 import { User, Session } from '@supabase/supabase-js'
-import { createBrowserClient, createServerClient } from '@supabase/ssr'
 import { useRouter } from 'next/navigation'
 import { Database } from '../supabase'
 import { createClientComponentClient } from '@/lib/supabase'
@@ -39,46 +38,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   const [isLoading, setIsLoading] = useState(true)
   const [relationshipCount, setRelationshipCount] = useState(0)
   const router = useRouter()
-  const supabase = createBrowserClient<Database>(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        get: (name: string) => {
-          if (typeof document !== 'undefined') {
-            const value = document.cookie
-              .split('; ')
-              .find(row => row.startsWith(`${name}=`))
-              ?.split('=')[1]
-            return value ? decodeURIComponent(value) : undefined
-          }
-          return undefined
-        },
-        set: (name: string, value: string, options: any) => {
-          if (typeof document !== 'undefined') {
-            const cookieOptions = {
-              ...options,
-              sameSite: 'lax',
-              secure: process.env.NODE_ENV === 'production',
-              path: '/',
-              maxAge: 60 * 60 * 24 * 7 // 7 jours
-            }
-            
-            const cookieString = `${name}=${encodeURIComponent(value)}; ${Object.entries(cookieOptions)
-              .map(([key, val]) => `${key}=${val}`)
-              .join('; ')}`
-            
-            document.cookie = cookieString
-          }
-        },
-        remove: (name: string, options: any) => {
-          if (typeof document !== 'undefined') {
-            document.cookie = `${name}=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT`
-          }
-        }
-      }
-    }
-  )
+  const supabase = createClientComponentClient()
 
   const fetchUserProfile = useCallback(async (userId: string) => {
     try {
@@ -142,54 +102,42 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
   // Gérer la visibilité de la page pour maintenir la session
   useEffect(() => {
-    const handleVisibilityChange = async () => {
-      if (document.visibilityState === 'visible' && user) {
-        try {
-          const { data: { session }, error } = await supabase.auth.getSession()
-          if (error) {
-            console.error('Error checking session on visibility change:', error)
-            return
-          }
-          
-          if (!session) {
-            // Session expirée, déconnecter l'utilisateur
-            console.log('Session expired, redirecting to auth...')
-            setUser(null)
-            setProfile(null)
-            setSession(null)
-            setRelationshipCount(0)
-            router.push('/auth')
-          } else if (session.user.id !== user.id) {
-            // L'utilisateur a changé, mettre à jour l'état
-            setUser(session.user)
-            setSession(session)
-            await fetchUserProfile(session.user.id)
-            await fetchRelationshipCount(session.user.id)
-          }
-        } catch (error) {
-          console.error('Error checking session on visibility change:', error)
+    let isChecking = false
+    
+    const checkSession = async () => {
+      if (isChecking || !user) return
+      isChecking = true
+      
+      try {
+        const { data: { session }, error } = await supabase.auth.getSession()
+        if (error) {
+          console.error('Error checking session:', error)
+          return
         }
+        
+        if (!session) {
+          console.log('Session expired, signing out...')
+          setUser(null)
+          setProfile(null)
+          setSession(null)
+          setRelationshipCount(0)
+          router.push('/auth')
+        }
+      } catch (error) {
+        console.error('Error during session check:', error)
+      } finally {
+        isChecking = false
       }
     }
 
-    // Vérification périodique de la session (toutes les 30 secondes)
-    const sessionCheckInterval = setInterval(async () => {
-      if (user) {
-        try {
-          const { data: { session }, error } = await supabase.auth.getSession()
-          if (error || !session) {
-            console.log('Session check failed or expired')
-            setUser(null)
-            setProfile(null)
-            setSession(null)
-            setRelationshipCount(0)
-            router.push('/auth')
-          }
-        } catch (error) {
-          console.error('Error during periodic session check:', error)
-        }
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        checkSession()
       }
-    }, 30000) // 30 secondes
+    }
+
+    // Vérification périodique moins fréquente (toutes les 5 minutes)
+    const sessionCheckInterval = setInterval(checkSession, 5 * 60 * 1000)
 
     document.addEventListener('visibilitychange', handleVisibilityChange)
     
@@ -197,7 +145,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       document.removeEventListener('visibilitychange', handleVisibilityChange)
       clearInterval(sessionCheckInterval)
     }
-  }, [user, supabase, router, fetchUserProfile, fetchRelationshipCount])
+  }, [user, supabase, router])
 
   useEffect(() => {
     let mounted = true
